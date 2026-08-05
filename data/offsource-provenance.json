@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://bldata.berkeley.edu/pipeline/AGBT17A_999_02/holding/spliced_blc0001020304050607_guppi_57792_05013_HIP20369_0039.gpuspec.8.0001.h5",
+    "path": "data\\spliced_blc0001020304050607_guppi_57792_05013_HIP20369_0039.gpuspec.8.0001.h5",
+    "sha256": "018d235ef60c6cedb713552bf641c4a936fb4b35b4ba7d32316f4ecde16f6cb0",
+    "size_bytes": 1025069211,
+    "retrieved_utc": "2026-08-05T02:25:33Z",
+    "resumed": false,
+    "cached": false
+  },
+  {
+    "url": "https://bldata.berkeley.edu/pipeline/AGBT17A_999_02/holding/spliced_blc0001020304050607_guppi_57792_05723_HIP20482_0041.gpuspec.8.0001.h5",
+    "path": "data\\spliced_blc0001020304050607_guppi_57792_05723_HIP20482_0041.gpuspec.8.0001.h5",
+    "sha256": "b1aeeff304e0eb0aacc9c9a16666067edc63a14245542d119c29d1b4d76ebd9c",
+    "size_bytes": 1086125496,
+    "retrieved_utc": "2026-08-05T02:27:12Z",
+    "resumed": false,
+    "cached": false
+  }
+]

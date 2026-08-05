@@ -1,0 +1,124 @@
+# Frozen v0.6 survey manifest - identical to v0.5 except:
+# 1. whiten_frequency: true on every observation (Registered Amendment 1,
+#    PREREGISTRATION.md, declared 2026-08-05 BEFORE this run).
+# 2. New seed (20260806) so surrogate draws are independent of v0.5.
+# Same five observations, same SHA-256-pinned inputs, same thresholds.
+experiment_id: bl-three-pulsar-survey-v0.6-whitened
+seed: 20260806
+surrogate_count: 2048
+observations:
+- id: B0329+54-AGBT17A-0016
+  url: https://bldata.berkeley.edu/pipeline/AGBT17A_999_02/holding/spliced_blc0001020304050607_guppi_57791_82599_B0329+54_0016.gpuspec.8.0001.h5
+  sha256: eea28c0c072911c470bcbf455153b729084322e458a3952893773959359f8b62
+  path: ../../data/spliced_blc0001020304050607_guppi_57791_82599_B0329+54_0016.gpuspec.8.0001.h5
+  format: hdf5
+  period_s: 0.71452
+  dm_pc_cm3: 26.7641
+  refine_period_fraction: 0.0005
+  on_window_fraction: 0.08
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.005
+  - 0.005
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+  whiten_frequency: true
+- id: B0329+54-AGBT18A-0059
+  url: https://bldata.berkeley.edu/pipeline/AGBT18A_999_30/holding/spliced_blc1011121314151617_guppi_58202_60970_B0329+54_0059.gpuspec.8.0001.h5
+  sha256: 79b08ee0c5431aeac0794525b412d1d9a002ad657cbf55ab39f203f1d51edbea
+  path: ../../data/spliced_blc1011121314151617_guppi_58202_60970_B0329+54_0059.gpuspec.8.0001.h5
+  format: hdf5
+  period_s: 0.71452
+  dm_pc_cm3: 26.7641
+  refine_period_fraction: 0.0005
+  on_window_fraction: 0.08
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.005
+  - 0.005
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+  whiten_frequency: true
+- id: B2021+51-GBT-2020
+  url: http://blpd1.ssl.berkeley.edu/kepler160_092020/spliced_blc4041424344454647_guppi_59103_01372_PSR_B2021+51_0009.rawspec.8.0001.h5
+  sha256: 038a36627bd1301c347ba46189438fe1356f279ba9662b8ad5c474aa075e4226
+  path: ../../data/spliced_blc4041424344454647_guppi_59103_01372_PSR_B2021+51_0009.rawspec.8.0001.h5
+  format: hdf5
+  period_s: 0.529197
+  dm_pc_cm3: 22.5496
+  refine_period_fraction: 0.0005
+  on_window_fraction: 0.08
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.005
+  - 0.005
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+  whiten_frequency: true
+- id: B0531+21-AGBT17A-0035
+  url: https://bldata.berkeley.edu/pipeline/AGBT17A_999_02/holding/spliced_blc0001020304050607_guppi_57792_02830_B0531+21_0035.gpuspec.8.0001.h5
+  sha256: 3270dc3bb1ffddddc71cfb1de1c18de86551bd02cf93b1f0bb093cc0c6251446
+  path: ../../data/spliced_blc0001020304050607_guppi_57792_02830_B0531+21_0035.gpuspec.8.0001.h5
+  format: hdf5
+  period_s: 0.0337204
+  dm_pc_cm3: 56.77
+  refine_period_fraction: 0.002
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+  whiten_frequency: true
+- id: B0531+21-AGBT17A-0036
+  url: https://bldata.berkeley.edu/pipeline/AGBT17A_999_02/holding/spliced_blc0001020304050607_guppi_57792_02899_B0531+21_0036.gpuspec.8.0001.h5
+  sha256: 579de4ea6fa17c88b504bf5b7a6e2e2764c626f82653e2e00444a5dddec2826e
+  path: ../../data/spliced_blc0001020304050607_guppi_57792_02899_B0531+21_0036.gpuspec.8.0001.h5
+  format: hdf5
+  period_s: 0.0337204
+  dm_pc_cm3: 56.77
+  refine_period_fraction: 0.002
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+  whiten_frequency: true

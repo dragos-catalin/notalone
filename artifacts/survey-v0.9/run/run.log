@@ -1,0 +1,24 @@
+2026-08-05T02:27:49Z [    0.0s]   0.0% |     ETA -- | INFO  | experiment gbt-offsource-validation-v0.9: 2 observations, 2048 surrogates | pulsarnet v0.8.0 | seed 20260809 | manifest sha256 eb8443f38a8a94a4…
+2026-08-05T02:27:50Z [    0.8s]   0.0% |     ETA -- | INFO  | OFFSRC-HIP20369-0039: loading + extracting target
+2026-08-05T02:30:03Z [  133.9s]   5.0% | ETA 42m23s | INFO  | OFFSRC-HIP20369-0039: target scanned (8893 pulses, verdict=candidate_structured_modulation)
+2026-08-05T02:30:05Z [  135.9s]  10.0% | ETA 28m17s | INFO  | OFFSRC-HIP20369-0039: control block-permutation done
+2026-08-05T02:31:20Z [  210.9s]  15.0% | ETA 25m04s | INFO  | OFFSRC-HIP20369-0039: control offpulse-+0.250 done
+2026-08-05T02:32:43Z [  293.9s]  20.0% | ETA 23m09s | INFO  | OFFSRC-HIP20369-0039: control offpulse-+0.500 done
+2026-08-05T02:34:01Z [  372.1s]  25.0% | ETA 21m04s | INFO  | OFFSRC-HIP20369-0039: control offpulse-+0.750 done
+2026-08-05T02:35:21Z [  452.5s]  30.0% | ETA 19m23s | INFO  | OFFSRC-HIP20369-0039: control wrong-period--0.02000 done
+2026-08-05T02:36:39Z [  530.4s]  35.0% | ETA 17m40s | INFO  | OFFSRC-HIP20369-0039: control wrong-period-+0.02000 done
+2026-08-05T02:38:59Z [  669.9s]  40.0% | ETA 19m47s | INFO  | OFFSRC-HIP20369-0039: control wrong-dm--0.250 done
+2026-08-05T02:41:17Z [  808.3s]  45.0% | ETA 20m18s | INFO  | OFFSRC-HIP20369-0039: control wrong-dm-+0.250 done
+2026-08-05T02:41:21Z [  812.5s]  50.0% | ETA 13m07s | INFO  | OFFSRC-HIP20369-0039: split-half recurrence checked
+2026-08-05T02:41:25Z [  816.5s]  50.0% | ETA 13m07s | INFO  | OFFSRC-HIP20482-0041: loading + extracting target
+2026-08-05T02:43:57Z [  968.2s]  55.0% | ETA 15m16s | INFO  | OFFSRC-HIP20482-0041: target scanned (8893 pulses, verdict=candidate_structured_modulation)
+2026-08-05T02:43:59Z [  970.7s]  60.0% |  ETA 9m36s | INFO  | OFFSRC-HIP20482-0041: control block-permutation done
+2026-08-05T02:45:23Z [ 1054.5s]  65.0% |  ETA 8m49s | INFO  | OFFSRC-HIP20482-0041: control offpulse-+0.250 done
+2026-08-05T02:46:43Z [ 1133.9s]  70.0% |  ETA 7m40s | INFO  | OFFSRC-HIP20482-0041: control offpulse-+0.500 done
+2026-08-05T02:48:01Z [ 1212.6s]  75.0% |  ETA 6m26s | INFO  | OFFSRC-HIP20482-0041: control offpulse-+0.750 done
+2026-08-05T02:49:18Z [ 1289.4s]  80.0% |  ETA 5m08s | INFO  | OFFSRC-HIP20482-0041: control wrong-period--0.02000 done
+2026-08-05T02:50:38Z [ 1368.8s]  85.0% |  ETA 3m53s | INFO  | OFFSRC-HIP20482-0041: control wrong-period-+0.02000 done
+2026-08-05T02:52:55Z [ 1506.7s]  90.0% |  ETA 3m11s | INFO  | OFFSRC-HIP20482-0041: control wrong-dm--0.250 done
+2026-08-05T02:55:12Z [ 1643.5s]  95.0% |  ETA 1m48s | INFO  | OFFSRC-HIP20482-0041: control wrong-dm-+0.250 done
+2026-08-05T02:55:16Z [ 1647.3s] 100.0% |  ETA 0m00s | INFO  | OFFSRC-HIP20482-0041: split-half recurrence checked
+2026-08-05T02:55:19Z [ 1650.3s] 100.0% |  ETA 0m00s | INFO  | experiment complete: 2 ok, 0 failed, 0 follow-up candidate(s)

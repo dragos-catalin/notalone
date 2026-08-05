@@ -1,0 +1,51 @@
+# Frozen real-data pilot manifest — created 2026-08-04 BEFORE any pulse-level
+# scan of these files. Thresholds are those preregistered in PREREGISTRATION.md.
+#
+# Target: PSR B0329+54 (J0332+5434), P = 0.714520 s, DM = 26.7641 pc cm^-3
+# (ATNF ephemeris values; bright, slow, extensively characterized).
+# Source: Breakthrough Listen Open Data Archive, GBT L-band high-time-resolution
+# products (.8.0001.h5, tsamp = 349.5 us, ~2044 samples/rotation).
+#
+# Known pilot limitations, declared up front:
+# - Stokes-I only (no polarization products): the polarization channel is inert.
+# - 252 and 420 rotations respectively — below the preregistered 10,000-rotation
+#   preference; this pilot exercises the frozen pipeline end-to-end on real data
+#   and is labeled a PILOT, not a full survey.
+# - Two epochs (2017-02-07 and 2018-03-25) act as mutual recurrence checks.
+
+experiment_id: bl-b0329p54-pilot-v0.4
+seed: 20260804
+surrogate_count: 2048
+
+observations:
+  - id: B0329+54-AGBT17A-0016
+    url: https://bldata.berkeley.edu/pipeline/AGBT17A_999_02/holding/spliced_blc0001020304050607_guppi_57791_82599_B0329+54_0016.gpuspec.8.0001.h5
+    filename: spliced_blc0001020304050607_guppi_57791_82599_B0329+54_0016.gpuspec.8.0001.h5
+    sha256: eea28c0c072911c470bcbf455153b729084322e458a3952893773959359f8b62
+    path: ../../data/spliced_blc0001020304050607_guppi_57791_82599_B0329+54_0016.gpuspec.8.0001.h5
+    format: hdf5
+    period_s: 0.714520
+    dm_pc_cm3: 26.7641
+    on_window_fraction: 0.08
+    rfi_z_threshold: 6.0
+    time_rfi_z_threshold: 10.0
+    offpulse_phase_offsets: [0.25, 0.50, 0.75]
+    wrong_period_fractions: [-0.005, 0.005]
+    wrong_dm_fractions: [-0.25, 0.25]
+    control_block_size: 32
+
+  - id: B0329+54-AGBT18A-0059
+    url: https://bldata.berkeley.edu/pipeline/AGBT18A_999_30/holding/spliced_blc1011121314151617_guppi_58202_60970_B0329+54_0059.gpuspec.8.0001.h5
+    filename: spliced_blc1011121314151617_guppi_58202_60970_B0329+54_0059.gpuspec.8.0001.h5
+    sha256: 79b08ee0c5431aeac0794525b412d1d9a002ad657cbf55ab39f203f1d51edbea
+    path: ../../data/spliced_blc1011121314151617_guppi_58202_60970_B0329+54_0059.gpuspec.8.0001.h5
+    format: hdf5
+    period_s: 0.714520
+    dm_pc_cm3: 26.7641
+    on_window_fraction: 0.08
+    rfi_z_threshold: 6.0
+    time_rfi_z_threshold: 10.0
+    offpulse_phase_offsets: [0.25, 0.50, 0.75]
+    wrong_period_fractions: [-0.005, 0.005]
+    wrong_dm_fractions: [-0.25, 0.25]
+    control_block_size: 32

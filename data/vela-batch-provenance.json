@@ -1,0 +1,203 @@
+{
+  "records": [
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78261_445343_J0835-4510_B2_0001.0001.fil",
+      "path": "data\\guppi_58347_78261_445343_J0835-4510_B2_0001.0001.fil",
+      "sha256": "580089d922873e31e204e03a9beb74c8bdd169d5f3ef24b726b9adb2ed3d8887",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T03:12:50Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78373_445389_J0835-4510_B3_0001.0001.fil",
+      "path": "data\\guppi_58347_78373_445389_J0835-4510_B3_0001.0001.fil",
+      "sha256": "0b95e5cafba9d61d6739251e97f29870201a6c5ee822d39589278e09fa9fd20f",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T03:26:46Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78494_445440_J0835-4510_B4_0001.0001.fil",
+      "path": "data\\guppi_58347_78494_445440_J0835-4510_B4_0001.0001.fil",
+      "sha256": "7fa070e2599cddbdb75e1b672862f9fcb4bd63efbeba5dde5f4d190218d0e48f",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T03:42:39Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78613_445490_J0835-4510_B5_0001.0001.fil",
+      "path": "data\\guppi_58347_78613_445490_J0835-4510_B5_0001.0001.fil",
+      "sha256": "c733ac1c96aee99ce8bfac34f1e6a64f45c1fafbcfb9abffcc93691a1edc5ddd",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T03:57:46Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78732_445539_J0835-4510_B6_0001.0001.fil",
+      "path": "data\\guppi_58347_78732_445539_J0835-4510_B6_0001.0001.fil",
+      "sha256": "25c581d5ed79541f82f388849f6ef878679664375d7e641fdd21c626d0d064a8",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T04:12:53Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78951_445631_J0835-4510_B8_0001.0001.fil",
+      "path": "data\\guppi_58347_78951_445631_J0835-4510_B8_0001.0001.fil",
+      "sha256": "4744b2df05b1c66194fb7b1ae1ee8fb0f63740a15863611cb0edb1e5f5f2422f",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T04:26:16Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_79065_445678_J0835-4510_B9_0001.0001.fil",
+      "path": "data\\guppi_58347_79065_445678_J0835-4510_B9_0001.0001.fil",
+      "sha256": "6d5c09170fe730517ce279fce24f8980833405a0d38b89b32a54b5f04bc371a7",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T04:39:59Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_79185_445728_J0835-4510_B10_0001.0001.fil",
+      "path": "data\\guppi_58347_79185_445728_J0835-4510_B10_0001.0001.fil",
+      "sha256": "f19dabfcc0696afb14b49cc2e5d070bfd46108b616ab3916e3c377e14376006f",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T04:53:27Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_79305_445778_J0835-4510_B11_0001.0001.fil",
+      "path": "data\\guppi_58347_79305_445778_J0835-4510_B11_0001.0001.fil",
+      "sha256": "5e0fc54566f8342096cd57c6efcab5f5231edc899dbe237220bdf48aba55e753",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T05:08:20Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_79427_445829_J0835-4510_B12_0001.0001.fil",
+      "path": "data\\guppi_58347_79427_445829_J0835-4510_B12_0001.0001.fil",
+      "sha256": "b2a2f955aefc1a046930883580e368d10fcb2f59b920fff1f74d2629ae3754b7",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T05:22:26Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_17649_456102_J0835-4510_B1_0001.0001.fil",
+      "path": "data\\guppi_58348_17649_456102_J0835-4510_B1_0001.0001.fil",
+      "sha256": "c4b42a591fe6aa6a5a8b118f3462b38ff6f0c3c91878ce3970805b543be31356",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T05:35:56Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_17760_456149_J0835-4510_B2_0001.0001.fil",
+      "path": "data\\guppi_58348_17760_456149_J0835-4510_B2_0001.0001.fil",
+      "sha256": "f540de8f88c995218e2e2fddc4b22093c3245a3f7582742d9f694aa8c9610441",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T05:49:53Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_17982_456241_J0835-4510_B4_0001.0001.fil",
+      "path": "data\\guppi_58348_17982_456241_J0835-4510_B4_0001.0001.fil",
+      "sha256": "c0f54b28c1f7d1240d0abdf006da39aeb6dcda48440a548a3effa902b1df5f23",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T06:03:33Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18093_456287_J0835-4510_B5_0001.0001.fil",
+      "path": "data\\guppi_58348_18093_456287_J0835-4510_B5_0001.0001.fil",
+      "sha256": "1fe9e53a8d795b44d32f9129f2efdd328be4117ea1c32cfe5021a0d72feb0a38",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T06:19:42Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18209_456336_J0835-4510_B6_0001.0001.fil",
+      "path": "data\\guppi_58348_18209_456336_J0835-4510_B6_0001.0001.fil",
+      "sha256": "4f1420467018315ae96da069ddc8eed27ede2c07ecdc02f9025c7de72826945f",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T06:34:26Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18321_456383_J0835-4510_B7_0001.0001.fil",
+      "path": "data\\guppi_58348_18321_456383_J0835-4510_B7_0001.0001.fil",
+      "sha256": "e26607eb7ecf0cbbd9f7e9f4a2734dff51ce83c0c005ec81d527e057198e058b",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T06:49:00Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18428_456427_J0835-4510_B8_0001.0001.fil",
+      "path": "data\\guppi_58348_18428_456427_J0835-4510_B8_0001.0001.fil",
+      "sha256": "25825192722c60904f1edacafc00d399df5c45f88536795fe176f2047bc61076",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T07:02:29Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18547_456477_J0835-4510_B9_0001.0001.fil",
+      "path": "data\\guppi_58348_18547_456477_J0835-4510_B9_0001.0001.fil",
+      "sha256": "97306474f09e367b07a09bfc387e88ab22741f4a7a2ff7fb479f7822a1e441c3",
+      "size_bytes": 1153433999,
+      "retrieved_utc": "2026-08-05T07:16:52Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18662_456525_J0835-4510_B10_0001.0001.fil",
+      "path": "data\\guppi_58348_18662_456525_J0835-4510_B10_0001.0001.fil",
+      "sha256": "b74991648621a421e35597b7920fe5c99072eda444f1e37895b6e22e84ca0bd1",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T07:33:11Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18772_456571_J0835-4510_B11_0001.0001.fil",
+      "path": "data\\guppi_58348_18772_456571_J0835-4510_B11_0001.0001.fil",
+      "sha256": "b01781abb31f231e95556ffbe08ea06b8c34f63d3bebf0b1257fabab6784fd30",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T07:46:53Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_18884_456618_J0835-4510_B12_0001.0001.fil",
+      "path": "data\\guppi_58348_18884_456618_J0835-4510_B12_0001.0001.fil",
+      "sha256": "f99390e38509c307154132ed5aa74f5d695e8363359592f4658358ea2373fd47",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T08:02:25Z",
+      "resumed": false,
+      "cached": false
+    },
+    {
+      "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_19002_456667_J0835-4510_B13_0001.0001.fil",
+      "path": "data\\guppi_58348_19002_456667_J0835-4510_B13_0001.0001.fil",
+      "sha256": "140311b7f6c1045de23857393404317986a5bccbcb70193550009f1d21761ae3",
+      "size_bytes": 1153434001,
+      "retrieved_utc": "2026-08-05T08:15:32Z",
+      "resumed": false,
+      "cached": false
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,57 @@
+2026-08-04T23:50:24Z [    0.0s]   0.0% |     ETA -- | INFO  | experiment bl-three-pulsar-survey-v0.6-whitened: 5 observations, 2048 surrogates | pulsarnet v0.5.0 | seed 20260806 | manifest sha256 37a576bae56afff3…
+2026-08-04T23:50:24Z [    0.0s]   0.0% |     ETA -- | INFO  | B0329+54-AGBT17A-0016: loading + extracting target
+2026-08-04T23:51:18Z [   53.8s]   2.0% | ETA 43m54s | INFO  | B0329+54-AGBT17A-0016: target scanned (251 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-04T23:51:18Z [   54.2s]   4.0% | ETA 30m12s | INFO  | B0329+54-AGBT17A-0016: control block-permutation done
+2026-08-04T23:51:51Z [   87.0s]   6.0% | ETA 28m25s | INFO  | B0329+54-AGBT17A-0016: control offpulse-+0.250 done
+2026-08-04T23:52:24Z [  120.0s]   8.0% | ETA 27m02s | INFO  | B0329+54-AGBT17A-0016: control offpulse-+0.500 done
+2026-08-04T23:52:56Z [  152.2s]  10.0% | ETA 25m47s | INFO  | B0329+54-AGBT17A-0016: control offpulse-+0.750 done
+2026-08-04T23:53:28Z [  184.3s]  12.0% | ETA 24m42s | INFO  | B0329+54-AGBT17A-0016: control wrong-period--0.00500 done
+2026-08-04T23:54:01Z [  216.6s]  14.0% | ETA 23m50s | INFO  | B0329+54-AGBT17A-0016: control wrong-period-+0.00500 done
+2026-08-04T23:54:49Z [  264.9s]  16.0% | ETA 26m26s | INFO  | B0329+54-AGBT17A-0016: control wrong-dm--0.250 done
+2026-08-04T23:55:37Z [  312.8s]  18.0% | ETA 27m53s | INFO  | B0329+54-AGBT17A-0016: control wrong-dm-+0.250 done
+2026-08-04T23:55:37Z [  312.8s]  20.0% | ETA 19m03s | INFO  | B0329+54-AGBT17A-0016: split-half recurrence checked
+2026-08-04T23:55:38Z [  313.8s]  20.0% | ETA 19m03s | INFO  | B0329+54-AGBT18A-0059: loading + extracting target
+2026-08-04T23:58:30Z [  485.5s]  22.0% | ETA 46m40s | INFO  | B0329+54-AGBT18A-0059: target scanned (419 pulses, verdict=interesting_but_inconclusive)
+2026-08-04T23:58:30Z [  486.1s]  24.0% | ETA 31m57s | INFO  | B0329+54-AGBT18A-0059: control block-permutation done
+2026-08-05T00:00:11Z [  586.6s]  26.0% | ETA 40m22s | INFO  | B0329+54-AGBT18A-0059: control offpulse-+0.250 done
+2026-08-05T00:01:54Z [  690.3s]  28.0% | ETA 46m10s | INFO  | B0329+54-AGBT18A-0059: control offpulse-+0.500 done
+2026-08-05T00:03:44Z [  799.5s]  30.0% | ETA 50m31s | INFO  | B0329+54-AGBT18A-0059: control offpulse-+0.750 done
+2026-08-05T00:05:30Z [  906.0s]  32.0% | ETA 52m27s | INFO  | B0329+54-AGBT18A-0059: control wrong-period--0.00500 done
+2026-08-05T00:07:19Z [ 1015.2s]  34.0% | ETA 53m40s | INFO  | B0329+54-AGBT18A-0059: control wrong-period-+0.00500 done
+2026-08-05T00:10:07Z [ 1182.7s]  36.0% | ETA 63m13s | INFO  | B0329+54-AGBT18A-0059: control wrong-dm--0.250 done
+2026-08-05T00:12:51Z [ 1347.2s]  38.0% | ETA 68m22s | INFO  | B0329+54-AGBT18A-0059: control wrong-dm-+0.250 done
+2026-08-05T00:12:52Z [ 1347.7s]  40.0% | ETA 46m23s | INFO  | B0329+54-AGBT18A-0059: split-half recurrence checked
+2026-08-05T00:12:55Z [ 1350.7s]  40.0% | ETA 46m23s | INFO  | B2021+51-GBT-2020: loading + extracting target
+2026-08-05T00:15:29Z [ 1504.7s]  42.0% | ETA 54m09s | INFO  | B2021+51-GBT-2020: target scanned (566 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T00:15:29Z [ 1505.3s]  44.0% | ETA 36m40s | INFO  | B2021+51-GBT-2020: control block-permutation done
+2026-08-05T00:16:53Z [ 1589.3s]  46.0% | ETA 36m06s | INFO  | B2021+51-GBT-2020: control offpulse-+0.250 done
+2026-08-05T00:18:18Z [ 1674.0s]  48.0% | ETA 35m20s | INFO  | B2021+51-GBT-2020: control offpulse-+0.500 done
+2026-08-05T00:19:48Z [ 1764.3s]  50.0% | ETA 35m04s | INFO  | B2021+51-GBT-2020: control offpulse-+0.750 done
+2026-08-05T00:21:23Z [ 1858.5s]  52.0% | ETA 34m52s | INFO  | B2021+51-GBT-2020: control wrong-period--0.00500 done
+2026-08-05T00:22:50Z [ 1946.0s]  54.0% | ETA 33m27s | INFO  | B2021+51-GBT-2020: control wrong-period-+0.00500 done
+2026-08-05T00:25:12Z [ 2087.4s]  56.0% | ETA 37m57s | INFO  | B2021+51-GBT-2020: control wrong-dm--0.250 done
+2026-08-05T00:27:42Z [ 2237.9s]  58.0% | ETA 41m09s | INFO  | B2021+51-GBT-2020: control wrong-dm-+0.250 done
+2026-08-05T00:27:42Z [ 2238.4s]  60.0% | ETA 27m29s | INFO  | B2021+51-GBT-2020: split-half recurrence checked
+2026-08-05T00:27:45Z [ 2241.0s]  60.0% | ETA 27m29s | INFO  | B0531+21-AGBT17A-0035: loading + extracting target
+2026-08-05T00:28:18Z [ 2273.9s]  62.0% | ETA 21m39s | INFO  | B0531+21-AGBT17A-0035: target scanned (1770 pulses, verdict=candidate_structured_modulation)
+2026-08-05T00:28:19Z [ 2274.8s]  64.0% | ETA 14m26s | INFO  | B0531+21-AGBT17A-0035: control block-permutation done
+2026-08-05T00:28:42Z [ 2298.2s]  66.0% | ETA 11m32s | INFO  | B0531+21-AGBT17A-0035: control offpulse-+0.250 done
+2026-08-05T00:29:05Z [ 2321.1s]  68.0% |  ETA 9m25s | INFO  | B0531+21-AGBT17A-0035: control offpulse-+0.500 done
+2026-08-05T00:29:28Z [ 2343.5s]  70.0% |  ETA 7m52s | INFO  | B0531+21-AGBT17A-0035: control offpulse-+0.750 done
+2026-08-05T00:29:52Z [ 2368.0s]  72.0% |  ETA 6m51s | INFO  | B0531+21-AGBT17A-0035: control wrong-period--0.02000 done
+2026-08-05T00:30:20Z [ 2395.5s]  74.0% |  ETA 6m14s | INFO  | B0531+21-AGBT17A-0035: control wrong-period-+0.02000 done
+2026-08-05T00:30:59Z [ 2434.8s]  76.0% |  ETA 6m23s | INFO  | B0531+21-AGBT17A-0035: control wrong-dm--0.250 done
+2026-08-05T00:31:38Z [ 2474.1s]  78.0% |  ETA 6m15s | INFO  | B0531+21-AGBT17A-0035: control wrong-dm-+0.250 done
+2026-08-05T00:31:39Z [ 2474.8s]  80.0% |  ETA 4m01s | INFO  | B0531+21-AGBT17A-0035: split-half recurrence checked
+2026-08-05T00:31:41Z [ 2476.7s]  80.0% |  ETA 4m01s | INFO  | B0531+21-AGBT17A-0036: loading + extracting target
+2026-08-05T00:35:15Z [ 2690.6s]  82.0% | ETA 12m14s | INFO  | B0531+21-AGBT17A-0036: target scanned (8889 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T00:35:20Z [ 2696.1s]  84.0% |  ETA 7m50s | INFO  | B0531+21-AGBT17A-0036: control block-permutation done
+2026-08-05T00:37:45Z [ 2840.4s]  86.0% |  ETA 9m51s | INFO  | B0531+21-AGBT17A-0036: control offpulse-+0.250 done
+2026-08-05T00:40:07Z [ 2983.2s]  88.0% | ETA 10m11s | INFO  | B0531+21-AGBT17A-0036: control offpulse-+0.500 done
+2026-08-05T00:42:21Z [ 3117.0s]  90.0% |  ETA 9m17s | INFO  | B0531+21-AGBT17A-0036: control offpulse-+0.750 done
+2026-08-05T00:44:45Z [ 3260.8s]  92.0% |  ETA 8m04s | INFO  | B0531+21-AGBT17A-0036: control wrong-period--0.02000 done
+2026-08-05T00:47:05Z [ 3401.4s]  94.0% |  ETA 6m21s | INFO  | B0531+21-AGBT17A-0036: control wrong-period-+0.02000 done
+2026-08-05T00:50:55Z [ 3631.2s]  96.0% |  ETA 5m15s | INFO  | B0531+21-AGBT17A-0036: control wrong-dm--0.250 done
+2026-08-05T00:54:06Z [ 3822.0s]  98.0% |  ETA 2m47s | INFO  | B0531+21-AGBT17A-0036: control wrong-dm-+0.250 done
+2026-08-05T00:54:11Z [ 3827.0s] 100.0% |  ETA 0m00s | INFO  | B0531+21-AGBT17A-0036: split-half recurrence checked
+2026-08-05T00:54:15Z [ 3830.8s] 100.0% |  ETA 0m00s | INFO  | experiment complete: 5 ok, 0 failed, 0 follow-up candidate(s)

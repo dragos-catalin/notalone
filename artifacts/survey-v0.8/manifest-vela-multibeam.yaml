@@ -1,0 +1,99 @@
+# Frozen v0.8 manifest — Vela multibeam cross-check (4 pointings, 2 nights).
+# NOTE (declared before scanning): B7/B13 were downloaded as candidate
+# OFF-SOURCE beams but fold-lock verification shows Vela is detected in ALL
+# beams (B7 z=24.7, B13 z=158) — Vela dominates the multibeam receiver, so no
+# off-source control is obtainable from this session. B7/B13 are therefore
+# treated as additional ON-SOURCE pointings. A Level-2 candidate would still
+# require true off-source data from another archive.
+experiment_id: parkes-vela-multibeam-v0.8
+seed: 20260808
+surrogate_count: 2048
+observations:
+- id: VELA-PKS-58347-B1
+  path: ../../data/guppi_58347_78145_445294_J0835-4510_B1_0001.0001.fil
+  sha256: a13e6dfc1503b1e4423eb02e81703a99eca645b2d8eba8604e46982b89fc0a65
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-PKS-58348-B3
+  path: ../../data/guppi_58348_17871_456195_J0835-4510_B3_0001.0001.fil
+  sha256: 2c3aea948b9fb85c5c1f7e3379da9dfa47f87a98800b54c6a91ad9bb294a80bf
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-PKS-58347-B7
+  path: ../../data/guppi_58347_78842_445585_J0835-4510_B7_0001.0001.fil
+  sha256: 5ebe77ba11df6475f3097db1aee171bdb268b6d77d9d6be1c35b8320663ce4c8
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-PKS-58347-B13
+  path: ../../data/guppi_58347_79545_445878_J0835-4510_B13_0001.0001.fil
+  sha256: ba5bd7f61254512c8e511ba9001930628e60d4c7e2c36a463245d9f9a6ab9a51
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32

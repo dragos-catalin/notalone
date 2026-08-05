@@ -1,0 +1,678 @@
+{
+  "experiment_id": "pulsarnet-v0.3-dry-run",
+  "manifest_path": "/mnt/data/pulsar-work/pulsar-network-experiment-v0.3/artifacts/release-v0.3/manifest-dry-run.yaml",
+  "manifest_sha256": "2b26e774018e535e006aad38fb772b44184274d6f56be73de9a8dd875b9d9866",
+  "seed": 20260804,
+  "surrogate_count": 512,
+  "observations": [
+    {
+      "observation_id": "blind-positive",
+      "source_id": "BLIND-SYNTH-001:target",
+      "input_path": "/mnt/data/pulsar-work/pulsar-network-experiment-v0.3/artifacts/release-v0.3/fixtures/blind-positive.npz",
+      "input_sha256": "a8cf7f06b66966d7b495258d856707410abc456a5d040773cdaf246e3aaab0ca",
+      "input_format": "npz",
+      "target_pulse_train_path": "/mnt/data/pulsar-work/pulsar-network-experiment-v0.3/artifacts/release-v0.3/manifest-final/blind-positive/target.npz",
+      "target_report": {
+        "source_id": "BLIND-SYNTH-001:target",
+        "n_pulses": 8000,
+        "null_fraction": 0.415625,
+        "transition_matrix": [
+          [
+            0.24984966927239927,
+            0.7501503307276007
+          ],
+          [
+            0.5336754329698524,
+            0.4663245670301475
+          ]
+        ],
+        "strongest_lag": 207,
+        "strongest_lag_score": 0.9012837989041477,
+        "surrogate_p_value": 0.001949317738791423,
+        "compression_gain_bits": 4904.0,
+        "prime_gap_enrichment": 2.2067188126754913,
+        "candidate_frame_lengths": [
+          207,
+          414,
+          621,
+          828,
+          1035,
+          1242,
+          1449,
+          1656
+        ],
+        "verdict": "candidate_structured_modulation",
+        "notes": [
+          "polarization structure exceeds the mixed Markov/run-length/block-bootstrap surrogate ensemble.",
+          "The polarization bitstream is substantially more compressible than surrogates.",
+          "Amplitude null gaps are enriched at prime intervals; verify against selection effects."
+        ],
+        "best_channel": "polarization",
+        "adjusted_p_value": 0.007797270955165692,
+        "cross_channel_support": 1,
+        "channel_metrics": {
+          "amplitude": {
+            "strongest_lag": 414,
+            "strongest_lag_score": 0.8205739135690754,
+            "candidate_frame_lengths": [
+              414,
+              207,
+              621,
+              828,
+              1035,
+              1242,
+              1449,
+              1656
+            ],
+            "observed_compression_bits": 4800,
+            "compression_ratio": 0.075,
+            "transition_matrix": [
+              [
+                0.24984966927239927,
+                0.7501503307276007
+              ],
+              [
+                0.5336754329698524,
+                0.4663245670301475
+              ]
+            ],
+            "one_fraction": 0.584375,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          },
+          "polarization": {
+            "strongest_lag": 207,
+            "strongest_lag_score": 0.9012837989041477,
+            "candidate_frame_lengths": [
+              207,
+              414,
+              621,
+              828,
+              1035,
+              1242,
+              1449,
+              1656
+            ],
+            "observed_compression_bits": 3128,
+            "compression_ratio": 0.048875,
+            "transition_matrix": [
+              [
+                0.23588254275572765,
+                0.7641174572442724
+              ],
+              [
+                0.4828711256117455,
+                0.5171288743882545
+              ]
+            ],
+            "one_fraction": 0.612875,
+            "surrogate_p_value": 0.001949317738791423,
+            "compression_gain_bits": 4904.0
+          },
+          "timing": {
+            "strongest_lag": 2482,
+            "strongest_lag_score": 0.036857480425038176,
+            "candidate_frame_lengths": [
+              2482,
+              2591,
+              2504,
+              373,
+              2391,
+              543,
+              566,
+              804
+            ],
+            "observed_compression_bits": 10960,
+            "compression_ratio": 0.17125,
+            "transition_matrix": [
+              [
+                0.49729995090819834,
+                0.5027000490918017
+              ],
+              [
+                0.5212522270297786,
+                0.4787477729702214
+              ]
+            ],
+            "one_fraction": 0.490875,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          },
+          "frequency": {
+            "strongest_lag": 847,
+            "strongest_lag_score": 0.054079054567253655,
+            "candidate_frame_lengths": [
+              847,
+              2182,
+              2381,
+              882,
+              803,
+              1359,
+              2137,
+              2519
+            ],
+            "observed_compression_bits": 10808,
+            "compression_ratio": 0.168875,
+            "transition_matrix": [
+              [
+                0.4894267515923567,
+                0.5105732484076433
+              ],
+              [
+                0.491417361451692,
+                0.508582638548308
+              ]
+            ],
+            "one_fraction": 0.509625,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          }
+        }
+      },
+      "controls": [
+        {
+          "control_id": "block-permutation",
+          "control_type": "block_permutation",
+          "parameters": {
+            "block_size": 64
+          },
+          "pulse_train_path": "/mnt/data/pulsar-work/pulsar-network-experiment-v0.3/artifacts/release-v0.3/manifest-final/blind-positive/control-block-permutation.npz",
+          "report": {
+            "source_id": "BLIND-SYNTH-001:target:block-permutation",
+            "n_pulses": 8000,
+            "null_fraction": 0.415625,
+            "transition_matrix": [
+              [
+                0.25195429945880937,
+                0.7480457005411906
+              ],
+              [
+                0.5319649347872568,
+                0.4680350652127432
+              ]
+            ],
+            "strongest_lag": 1427,
+            "strongest_lag_score": 0.06955527946464836,
+            "surrogate_p_value": 0.037037037037037035,
+            "compression_gain_bits": 3184.0,
+            "prime_gap_enrichment": 2.3586416967509027,
+            "candidate_frame_lengths": [
+              1427,
+              1896,
+              994,
+              2178,
+              2353,
+              2658,
+              975,
+              1417
+            ],
+            "verdict": "interesting_but_inconclusive",
+            "notes": [
+              "The polarization bitstream is substantially more compressible than surrogates.",
+              "Amplitude null gaps are enriched at prime intervals; verify against selection effects."
+            ],
+            "best_channel": "polarization",
+            "adjusted_p_value": 0.14814814814814814,
+            "cross_channel_support": 0,
+            "channel_metrics": {
+              "amplitude": {
+                "strongest_lag": 2178,
+                "strongest_lag_score": 0.05876118089852049,
+                "candidate_frame_lengths": [
+                  2178,
+                  2658,
+                  1896,
+                  2157,
+                  994,
+                  1427,
+                  1910,
+                  1570
+                ],
+                "observed_compression_bits": 6400,
+                "compression_ratio": 0.1,
+                "transition_matrix": [
+                  [
+                    0.25195429945880937,
+                    0.7480457005411906
+                  ],
+                  [
+                    0.5319649347872568,
+                    0.4680350652127432
+                  ]
+                ],
+                "one_fraction": 0.584375,
+                "surrogate_p_value": 1.0,
+                "compression_gain_bits": 0.0
+              },
+              "polarization": {
+                "strongest_lag": 1427,
+                "strongest_lag_score": 0.06955527946464836,
+                "candidate_frame_lengths": [
+                  1427,
+                  1896,
+                  994,
+                  2178,
+                  2353,
+                  2658,
+                  975,
+                  1417
+                ],
+                "observed_compression_bits": 5088,
+                "compression_ratio": 0.0795,
+                "transition_matrix": [
+                  [
+                    0.23814133591481124,
+                    0.7618586640851888
+                  ],
+                  [
+                    0.4812398042414356,
+                    0.5187601957585645
+                  ]
+                ],
+                "one_fraction": 0.612875,
+                "surrogate_p_value": 0.037037037037037035,
+                "compression_gain_bits": 3184.0
+              },
+              "timing": {
+                "strongest_lag": 87,
+                "strongest_lag_score": 0.045548662724169325,
+                "candidate_frame_lengths": [
+                  87,
+                  774,
+                  1621,
+                  1591,
+                  1286,
+                  1568,
+                  2587,
+                  1533
+                ],
+                "observed_compression_bits": 11032,
+                "compression_ratio": 0.172375,
+                "transition_matrix": [
+                  [
+                    0.4995090819833088,
+                    0.5004909180166912
+                  ],
+                  [
+                    0.5189615678289641,
+                    0.48103843217103587
+                  ]
+                ],
+                "one_fraction": 0.490875,
+                "surrogate_p_value": 1.0,
+                "compression_gain_bits": 0.0
+              },
+              "frequency": {
+                "strongest_lag": 2473,
+                "strongest_lag_score": 0.04974036043366309,
+                "candidate_frame_lengths": [
+                  2473,
+                  1540,
+                  2089,
+                  2378,
+                  2569,
+                  2447,
+                  2344,
+                  91
+                ],
+                "observed_compression_bits": 11040,
+                "compression_ratio": 0.1725,
+                "transition_matrix": [
+                  [
+                    0.48853211009174313,
+                    0.5114678899082569
+                  ],
+                  [
+                    0.49227751899975486,
+                    0.5077224810002452
+                  ]
+                ],
+                "one_fraction": 0.509625,
+                "surrogate_p_value": 1.0,
+                "compression_gain_bits": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "split_half": {
+        "available": true,
+        "compatible_lag": true,
+        "first": {
+          "source_id": "BLIND-SYNTH-001:target:first-half",
+          "n_pulses": 4000,
+          "null_fraction": 0.41825,
+          "transition_matrix": [
+            [
+              0.25134328358208957,
+              0.7486567164179104
+            ],
+            [
+              0.538659793814433,
+              0.46134020618556704
+            ]
+          ],
+          "strongest_lag": 207,
+          "strongest_lag_score": 0.9032204398207306,
+          "surrogate_p_value": 0.0038910505836575876,
+          "compression_gain_bits": 2432.0,
+          "prime_gap_enrichment": 2.21071034228929,
+          "candidate_frame_lengths": [
+            207,
+            414,
+            621,
+            828,
+            1035,
+            1242,
+            197,
+            217
+          ],
+          "verdict": "candidate_structured_modulation",
+          "notes": [
+            "polarization structure exceeds the mixed Markov/run-length/block-bootstrap surrogate ensemble.",
+            "The polarization bitstream is substantially more compressible than surrogates.",
+            "Amplitude null gaps are enriched at prime intervals; verify against selection effects."
+          ],
+          "best_channel": "polarization",
+          "adjusted_p_value": 0.01556420233463035,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 414,
+              "strongest_lag_score": 0.8128162053644735,
+              "candidate_frame_lengths": [
+                414,
+                207,
+                621,
+                828,
+                1035,
+                1242,
+                73,
+                193
+              ],
+              "observed_compression_bits": 2688,
+              "compression_ratio": 0.084,
+              "transition_matrix": [
+                [
+                  0.25134328358208957,
+                  0.7486567164179104
+                ],
+                [
+                  0.538659793814433,
+                  0.46134020618556704
+                ]
+              ],
+              "one_fraction": 0.58175,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "polarization": {
+              "strongest_lag": 207,
+              "strongest_lag_score": 0.9032204398207306,
+              "candidate_frame_lengths": [
+                207,
+                414,
+                621,
+                828,
+                1035,
+                1242,
+                197,
+                217
+              ],
+              "observed_compression_bits": 1792,
+              "compression_ratio": 0.056,
+              "transition_matrix": [
+                [
+                  0.23510362694300518,
+                  0.7648963730569949
+                ],
+                [
+                  0.48027653517690116,
+                  0.5197234648230988
+                ]
+              ],
+              "one_fraction": 0.6145,
+              "surrogate_p_value": 0.0038910505836575876,
+              "compression_gain_bits": 2432.0
+            },
+            "timing": {
+              "strongest_lag": 911,
+              "strongest_lag_score": 0.07236430707157866,
+              "candidate_frame_lengths": [
+                911,
+                841,
+                1280,
+                1202,
+                201,
+                447,
+                1177,
+                1042
+              ],
+              "observed_compression_bits": 5736,
+              "compression_ratio": 0.17925,
+              "transition_matrix": [
+                [
+                  0.5067829457364341,
+                  0.4932170542635659
+                ],
+                [
+                  0.5244971634863331,
+                  0.4755028365136668
+                ]
+              ],
+              "one_fraction": 0.4845,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 1308,
+              "strongest_lag_score": 0.06253520709271383,
+              "candidate_frame_lengths": [
+                1308,
+                847,
+                753,
+                1171,
+                909,
+                1086,
+                508,
+                827
+              ],
+              "observed_compression_bits": 5680,
+              "compression_ratio": 0.1775,
+              "transition_matrix": [
+                [
+                  0.4751958224543081,
+                  0.5248041775456919
+                ],
+                [
+                  0.4818007662835249,
+                  0.5181992337164751
+                ]
+              ],
+              "one_fraction": 0.5215,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        },
+        "second": {
+          "source_id": "BLIND-SYNTH-001:target:second-half",
+          "n_pulses": 4000,
+          "null_fraction": 0.413,
+          "transition_matrix": [
+            [
+              0.24863883847549909,
+              0.7513611615245009
+            ],
+            [
+              0.528936170212766,
+              0.47106382978723405
+            ]
+          ],
+          "strongest_lag": 207,
+          "strongest_lag_score": 0.8947247897805456,
+          "surrogate_p_value": 0.0038910505836575876,
+          "compression_gain_bits": 2280.0,
+          "prime_gap_enrichment": 2.2185746012517664,
+          "candidate_frame_lengths": [
+            207,
+            414,
+            621,
+            828,
+            1035,
+            1242,
+            217,
+            197
+          ],
+          "verdict": "candidate_structured_modulation",
+          "notes": [
+            "polarization structure exceeds the mixed Markov/run-length/block-bootstrap surrogate ensemble.",
+            "The polarization bitstream is substantially more compressible than surrogates.",
+            "A compatible frame lag is supported by 2 independent feature channels.",
+            "Amplitude null gaps are enriched at prime intervals; verify against selection effects."
+          ],
+          "best_channel": "polarization",
+          "adjusted_p_value": 0.01556420233463035,
+          "cross_channel_support": 2,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 207,
+              "strongest_lag_score": 0.8275611381991304,
+              "candidate_frame_lengths": [
+                207,
+                414,
+                621,
+                828,
+                1242,
+                1035,
+                193,
+                221
+              ],
+              "observed_compression_bits": 2672,
+              "compression_ratio": 0.0835,
+              "transition_matrix": [
+                [
+                  0.24863883847549909,
+                  0.7513611615245009
+                ],
+                [
+                  0.528936170212766,
+                  0.47106382978723405
+                ]
+              ],
+              "one_fraction": 0.587,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "polarization": {
+              "strongest_lag": 207,
+              "strongest_lag_score": 0.8947247897805456,
+              "candidate_frame_lengths": [
+                207,
+                414,
+                621,
+                828,
+                1035,
+                1242,
+                217,
+                197
+              ],
+              "observed_compression_bits": 1968,
+              "compression_ratio": 0.0615,
+              "transition_matrix": [
+                [
+                  0.23699421965317918,
+                  0.7630057803468208
+                ],
+                [
+                  0.4856909239574816,
+                  0.5143090760425184
+                ]
+              ],
+              "one_fraction": 0.61125,
+              "surrogate_p_value": 0.0038910505836575876,
+              "compression_gain_bits": 2280.0
+            },
+            "timing": {
+              "strongest_lag": 1241,
+              "strongest_lag_score": 0.058937781995434764,
+              "candidate_frame_lengths": [
+                1241,
+                1330,
+                1094,
+                1026,
+                1008,
+                89,
+                1172,
+                984
+              ],
+              "observed_compression_bits": 5800,
+              "compression_ratio": 0.18125,
+              "transition_matrix": [
+                [
+                  0.49107142857142855,
+                  0.5089285714285714
+                ],
+                [
+                  0.5168595873175642,
+                  0.48314041268243585
+                ]
+              ],
+              "one_fraction": 0.49625,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 1262,
+              "strongest_lag_score": 0.0629187503154725,
+              "candidate_frame_lengths": [
+                1262,
+                912,
+                1191,
+                883,
+                872,
+                304,
+                1132,
+                396
+              ],
+              "observed_compression_bits": 5664,
+              "compression_ratio": 0.177,
+              "transition_matrix": [
+                [
+                  0.5160194174757281,
+                  0.48398058252427184
+                ],
+                [
+                  0.5126093669583119,
+                  0.4873906330416881
+                ]
+              ],
+              "one_fraction": 0.4855,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      "batch_fdr_q_value": 0.007797270955165692,
+      "disposition": "follow_up_candidate",
+      "disposition_reasons": [
+        "Survives registered software, batch and negative-control gates."
+      ]
+    }
+  ],
+  "summary": {
+    "observation_count": 1,
+    "minimum_possible_channel_adjusted_p": 0.007797270955165692,
+    "single_candidate_batch_q_floor": 0.007797270955165692,
+    "registered_level1_p_threshold_resolvable": true,
+    "registered_single_candidate_q_threshold_resolvable": true,
+    "minimum_surrogates_for_single_candidate_q_below_0_01": 400,
+    "registered_level1_count": 1,
+    "follow_up_candidate_count": 1,
+    "disposition_counts": {
+      "follow_up_candidate": 1
+    },
+    "scientific_boundary": "A follow-up candidate is an anomaly requiring independent observatory and astrophysical validation, not evidence of extraterrestrial intelligence."
+  }
+}

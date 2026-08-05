@@ -1,0 +1,20 @@
+[
+  {
+    "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78842_445585_J0835-4510_B7_0001.0001.fil",
+    "path": "data\\guppi_58347_78842_445585_J0835-4510_B7_0001.0001.fil",
+    "sha256": "5ebe77ba11df6475f3097db1aee171bdb268b6d77d9d6be1c35b8320663ce4c8",
+    "size_bytes": 1153433999,
+    "retrieved_utc": "2026-08-05T01:55:16Z",
+    "resumed": false,
+    "cached": false
+  },
+  {
+    "url": "http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_79545_445878_J0835-4510_B13_0001.0001.fil",
+    "path": "data\\guppi_58347_79545_445878_J0835-4510_B13_0001.0001.fil",
+    "sha256": "ba5bd7f61254512c8e511ba9001930628e60d4c7e2c36a463245d9f9a6ab9a51",
+    "size_bytes": 1153434001,
+    "retrieved_utc": "2026-08-05T02:07:24Z",
+    "resumed": false,
+    "cached": false
+  }
+]

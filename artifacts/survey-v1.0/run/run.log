@@ -1,0 +1,277 @@
+2026-08-05T08:16:01Z [    0.0s]   0.0% |     ETA -- | INFO  | experiment vela-deep-batch-v1.0: 25 observations, 2048 surrogates | pulsarnet v0.9.0 | seed 20260810 | manifest sha256 79f476ed12b6d0fc…
+2026-08-05T08:16:02Z [    0.8s]   0.0% |     ETA -- | INFO  | VELA-58347-B1-78145: loading + extracting target
+2026-08-05T08:16:16Z [   15.1s]   0.4% | ETA 62m45s | INFO  | VELA-58347-B1-78145: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:16:17Z [   15.6s]   0.8% | ETA 44m22s | INFO  | VELA-58347-B1-78145: control block-permutation done
+2026-08-05T08:16:25Z [   23.6s]   1.2% | ETA 40m47s | INFO  | VELA-58347-B1-78145: control offpulse-+0.250 done
+2026-08-05T08:16:33Z [   31.4s]   1.6% | ETA 37m58s | INFO  | VELA-58347-B1-78145: control offpulse-+0.500 done
+2026-08-05T08:16:40Z [   38.9s]   2.0% | ETA 35m44s | INFO  | VELA-58347-B1-78145: control offpulse-+0.750 done
+2026-08-05T08:16:48Z [   46.4s]   2.4% | ETA 34m05s | INFO  | VELA-58347-B1-78145: control wrong-period--0.02000 done
+2026-08-05T08:16:55Z [   54.0s]   2.8% | ETA 32m55s | INFO  | VELA-58347-B1-78145: control wrong-period-+0.02000 done
+2026-08-05T08:17:07Z [   65.7s]   3.2% | ETA 37m07s | INFO  | VELA-58347-B1-78145: control wrong-dm--0.250 done
+2026-08-05T08:17:19Z [   77.4s]   3.6% | ETA 39m57s | INFO  | VELA-58347-B1-78145: control wrong-dm-+0.250 done
+2026-08-05T08:17:19Z [   77.8s]   4.0% | ETA 28m19s | INFO  | VELA-58347-B1-78145: split-half recurrence checked
+2026-08-05T08:17:21Z [   79.5s]   4.0% | ETA 28m19s | INFO  | VELA-58347-B2-78261: loading + extracting target
+2026-08-05T08:17:35Z [   93.3s]   4.4% | ETA 38m16s | INFO  | VELA-58347-B2-78261: target scanned (670 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:17:35Z [   93.8s]   4.8% | ETA 27m15s | INFO  | VELA-58347-B2-78261: control block-permutation done
+2026-08-05T08:17:43Z [  101.4s]   5.2% | ETA 27m59s | INFO  | VELA-58347-B2-78261: control offpulse-+0.250 done
+2026-08-05T08:17:50Z [  108.9s]   5.6% | ETA 28m24s | INFO  | VELA-58347-B2-78261: control offpulse-+0.500 done
+2026-08-05T08:17:58Z [  116.5s]   6.0% | ETA 28m44s | INFO  | VELA-58347-B2-78261: control offpulse-+0.750 done
+2026-08-05T08:18:05Z [  124.1s]   6.4% | ETA 28m57s | INFO  | VELA-58347-B2-78261: control wrong-period--0.02000 done
+2026-08-05T08:18:13Z [  131.8s]   6.8% | ETA 29m04s | INFO  | VELA-58347-B2-78261: control wrong-period-+0.02000 done
+2026-08-05T08:18:25Z [  143.5s]   7.2% | ETA 33m51s | INFO  | VELA-58347-B2-78261: control wrong-dm--0.250 done
+2026-08-05T08:18:37Z [  155.3s]   7.6% | ETA 37m13s | INFO  | VELA-58347-B2-78261: control wrong-dm-+0.250 done
+2026-08-05T08:18:37Z [  155.7s]   8.0% | ETA 26m24s | INFO  | VELA-58347-B2-78261: split-half recurrence checked
+2026-08-05T08:18:39Z [  157.5s]   8.0% | ETA 26m24s | INFO  | VELA-58347-B3-78373: loading + extracting target
+2026-08-05T08:18:53Z [  171.2s]   8.4% | ETA 36m10s | INFO  | VELA-58347-B3-78373: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:18:53Z [  171.7s]   8.8% | ETA 25m47s | INFO  | VELA-58347-B3-78373: control block-permutation done
+2026-08-05T08:19:01Z [  179.3s]   9.2% | ETA 26m37s | INFO  | VELA-58347-B3-78373: control offpulse-+0.250 done
+2026-08-05T08:19:08Z [  186.9s]   9.6% | ETA 27m07s | INFO  | VELA-58347-B3-78373: control offpulse-+0.500 done
+2026-08-05T08:19:16Z [  194.5s]  10.0% | ETA 27m26s | INFO  | VELA-58347-B3-78373: control offpulse-+0.750 done
+2026-08-05T08:19:23Z [  202.1s]  10.4% | ETA 27m39s | INFO  | VELA-58347-B3-78373: control wrong-period--0.02000 done
+2026-08-05T08:19:31Z [  209.7s]  10.8% | ETA 27m45s | INFO  | VELA-58347-B3-78373: control wrong-period-+0.02000 done
+2026-08-05T08:19:43Z [  221.5s]  11.2% | ETA 32m23s | INFO  | VELA-58347-B3-78373: control wrong-dm--0.250 done
+2026-08-05T08:19:55Z [  233.2s]  11.6% | ETA 35m33s | INFO  | VELA-58347-B3-78373: control wrong-dm-+0.250 done
+2026-08-05T08:19:55Z [  233.6s]  12.0% | ETA 25m13s | INFO  | VELA-58347-B3-78373: split-half recurrence checked
+2026-08-05T08:19:57Z [  235.4s]  12.0% | ETA 25m13s | INFO  | VELA-58347-B4-78494: loading + extracting target
+2026-08-05T08:20:11Z [  249.3s]  12.4% | ETA 34m42s | INFO  | VELA-58347-B4-78494: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:20:11Z [  249.8s]  12.8% | ETA 24m42s | INFO  | VELA-58347-B4-78494: control block-permutation done
+2026-08-05T08:20:19Z [  257.4s]  13.2% | ETA 25m30s | INFO  | VELA-58347-B4-78494: control offpulse-+0.250 done
+2026-08-05T08:20:26Z [  265.0s]  13.6% | ETA 25m58s | INFO  | VELA-58347-B4-78494: control offpulse-+0.500 done
+2026-08-05T08:20:34Z [  272.7s]  14.0% | ETA 26m23s | INFO  | VELA-58347-B4-78494: control offpulse-+0.750 done
+2026-08-05T08:20:42Z [  280.4s]  14.4% | ETA 26m38s | INFO  | VELA-58347-B4-78494: control wrong-period--0.02000 done
+2026-08-05T08:20:49Z [  288.0s]  14.8% | ETA 26m37s | INFO  | VELA-58347-B4-78494: control wrong-period-+0.02000 done
+2026-08-05T08:21:01Z [  299.9s]  15.2% | ETA 31m07s | INFO  | VELA-58347-B4-78494: control wrong-dm--0.250 done
+2026-08-05T08:21:13Z [  311.6s]  15.6% | ETA 34m03s | INFO  | VELA-58347-B4-78494: control wrong-dm-+0.250 done
+2026-08-05T08:21:13Z [  312.0s]  16.0% | ETA 24m09s | INFO  | VELA-58347-B4-78494: split-half recurrence checked
+2026-08-05T08:21:15Z [  313.8s]  16.0% | ETA 24m09s | INFO  | VELA-58347-B5-78613: loading + extracting target
+2026-08-05T08:21:29Z [  327.5s]  16.4% | ETA 33m02s | INFO  | VELA-58347-B5-78613: target scanned (671 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:21:29Z [  328.0s]  16.8% | ETA 23m31s | INFO  | VELA-58347-B5-78613: control block-permutation done
+2026-08-05T08:21:37Z [  335.6s]  17.2% | ETA 24m14s | INFO  | VELA-58347-B5-78613: control offpulse-+0.250 done
+2026-08-05T08:21:44Z [  343.1s]  17.6% | ETA 24m36s | INFO  | VELA-58347-B5-78613: control offpulse-+0.500 done
+2026-08-05T08:21:52Z [  350.7s]  18.0% | ETA 24m54s | INFO  | VELA-58347-B5-78613: control offpulse-+0.750 done
+2026-08-05T08:22:00Z [  358.4s]  18.4% | ETA 25m11s | INFO  | VELA-58347-B5-78613: control wrong-period--0.02000 done
+2026-08-05T08:22:07Z [  365.9s]  18.8% | ETA 25m13s | INFO  | VELA-58347-B5-78613: control wrong-period-+0.02000 done
+2026-08-05T08:22:19Z [  377.7s]  19.2% | ETA 29m28s | INFO  | VELA-58347-B5-78613: control wrong-dm--0.250 done
+2026-08-05T08:22:31Z [  389.4s]  19.6% | ETA 32m17s | INFO  | VELA-58347-B5-78613: control wrong-dm-+0.250 done
+2026-08-05T08:22:31Z [  389.8s]  20.0% | ETA 22m54s | INFO  | VELA-58347-B5-78613: split-half recurrence checked
+2026-08-05T08:22:33Z [  391.6s]  20.0% | ETA 22m54s | INFO  | VELA-58347-B6-78732: loading + extracting target
+2026-08-05T08:22:47Z [  406.1s]  20.4% | ETA 32m07s | INFO  | VELA-58347-B6-78732: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:22:48Z [  406.6s]  20.8% | ETA 22m50s | INFO  | VELA-58347-B6-78732: control block-permutation done
+2026-08-05T08:22:56Z [  414.9s]  21.2% | ETA 24m08s | INFO  | VELA-58347-B6-78732: control offpulse-+0.250 done
+2026-08-05T08:23:05Z [  423.4s]  21.6% | ETA 25m06s | INFO  | VELA-58347-B6-78732: control offpulse-+0.500 done
+2026-08-05T08:23:13Z [  431.8s]  22.0% | ETA 25m40s | INFO  | VELA-58347-B6-78732: control offpulse-+0.750 done
+2026-08-05T08:23:22Z [  440.1s]  22.4% | ETA 26m00s | INFO  | VELA-58347-B6-78732: control wrong-period--0.02000 done
+2026-08-05T08:23:30Z [  448.5s]  22.8% | ETA 26m10s | INFO  | VELA-58347-B6-78732: control wrong-period-+0.02000 done
+2026-08-05T08:23:42Z [  460.2s]  23.2% | ETA 29m26s | INFO  | VELA-58347-B6-78732: control wrong-dm--0.250 done
+2026-08-05T08:23:53Z [  471.9s]  23.6% | ETA 31m41s | INFO  | VELA-58347-B6-78732: control wrong-dm-+0.250 done
+2026-08-05T08:23:54Z [  472.3s]  24.0% | ETA 22m26s | INFO  | VELA-58347-B6-78732: split-half recurrence checked
+2026-08-05T08:23:55Z [  474.1s]  24.0% | ETA 22m26s | INFO  | VELA-58347-B7-78842: loading + extracting target
+2026-08-05T08:24:09Z [  487.8s]  24.4% | ETA 30m17s | INFO  | VELA-58347-B7-78842: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:24:10Z [  488.3s]  24.8% | ETA 21m32s | INFO  | VELA-58347-B7-78842: control block-permutation done
+2026-08-05T08:24:17Z [  495.9s]  25.2% | ETA 22m06s | INFO  | VELA-58347-B7-78842: control offpulse-+0.250 done
+2026-08-05T08:24:25Z [  503.5s]  25.6% | ETA 22m26s | INFO  | VELA-58347-B7-78842: control offpulse-+0.500 done
+2026-08-05T08:24:32Z [  511.0s]  26.0% | ETA 22m34s | INFO  | VELA-58347-B7-78842: control offpulse-+0.750 done
+2026-08-05T08:24:40Z [  518.6s]  26.4% | ETA 22m41s | INFO  | VELA-58347-B7-78842: control wrong-period--0.02000 done
+2026-08-05T08:24:48Z [  526.2s]  26.8% | ETA 22m43s | INFO  | VELA-58347-B7-78842: control wrong-period-+0.02000 done
+2026-08-05T08:24:59Z [  537.9s]  27.2% | ETA 26m33s | INFO  | VELA-58347-B7-78842: control wrong-dm--0.250 done
+2026-08-05T08:25:11Z [  549.7s]  27.6% | ETA 29m09s | INFO  | VELA-58347-B7-78842: control wrong-dm-+0.250 done
+2026-08-05T08:25:12Z [  550.2s]  28.0% | ETA 20m40s | INFO  | VELA-58347-B7-78842: split-half recurrence checked
+2026-08-05T08:25:13Z [  551.9s]  28.0% | ETA 20m40s | INFO  | VELA-58347-B8-78951: loading + extracting target
+2026-08-05T08:25:27Z [  565.6s]  28.4% | ETA 28m11s | INFO  | VELA-58347-B8-78951: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:25:27Z [  566.1s]  28.8% | ETA 20m04s | INFO  | VELA-58347-B8-78951: control block-permutation done
+2026-08-05T08:25:35Z [  573.6s]  29.2% | ETA 20m38s | INFO  | VELA-58347-B8-78951: control offpulse-+0.250 done
+2026-08-05T08:25:43Z [  581.2s]  29.6% | ETA 21m01s | INFO  | VELA-58347-B8-78951: control offpulse-+0.500 done
+2026-08-05T08:25:50Z [  588.7s]  30.0% | ETA 21m15s | INFO  | VELA-58347-B8-78951: control offpulse-+0.750 done
+2026-08-05T08:25:58Z [  596.4s]  30.4% | ETA 21m28s | INFO  | VELA-58347-B8-78951: control wrong-period--0.02000 done
+2026-08-05T08:26:05Z [  603.9s]  30.8% | ETA 21m25s | INFO  | VELA-58347-B8-78951: control wrong-period-+0.02000 done
+2026-08-05T08:26:17Z [  615.7s]  31.2% | ETA 25m02s | INFO  | VELA-58347-B8-78951: control wrong-dm--0.250 done
+2026-08-05T08:26:29Z [  627.4s]  31.6% | ETA 27m25s | INFO  | VELA-58347-B8-78951: control wrong-dm-+0.250 done
+2026-08-05T08:26:29Z [  627.8s]  32.0% | ETA 19m25s | INFO  | VELA-58347-B8-78951: split-half recurrence checked
+2026-08-05T08:26:31Z [  629.6s]  32.0% | ETA 19m25s | INFO  | VELA-58347-B9-79065: loading + extracting target
+2026-08-05T08:26:45Z [  643.7s]  32.4% | ETA 26m55s | INFO  | VELA-58347-B9-79065: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:26:46Z [  644.2s]  32.8% | ETA 19m12s | INFO  | VELA-58347-B9-79065: control block-permutation done
+2026-08-05T08:26:53Z [  652.1s]  33.2% | ETA 19m56s | INFO  | VELA-58347-B9-79065: control offpulse-+0.250 done
+2026-08-05T08:27:01Z [  659.6s]  33.6% | ETA 20m05s | INFO  | VELA-58347-B9-79065: control offpulse-+0.500 done
+2026-08-05T08:27:09Z [  667.2s]  34.0% | ETA 20m12s | INFO  | VELA-58347-B9-79065: control offpulse-+0.750 done
+2026-08-05T08:27:16Z [  674.7s]  34.4% | ETA 20m16s | INFO  | VELA-58347-B9-79065: control wrong-period--0.02000 done
+2026-08-05T08:27:24Z [  682.3s]  34.8% | ETA 20m14s | INFO  | VELA-58347-B9-79065: control wrong-period-+0.02000 done
+2026-08-05T08:27:35Z [  693.8s]  35.2% | ETA 23m28s | INFO  | VELA-58347-B9-79065: control wrong-dm--0.250 done
+2026-08-05T08:27:47Z [  705.4s]  35.6% | ETA 25m37s | INFO  | VELA-58347-B9-79065: control wrong-dm-+0.250 done
+2026-08-05T08:27:47Z [  705.8s]  36.0% | ETA 18m08s | INFO  | VELA-58347-B9-79065: split-half recurrence checked
+2026-08-05T08:27:49Z [  707.5s]  36.0% | ETA 18m08s | INFO  | VELA-58347-B10-79185: loading + extracting target
+2026-08-05T08:28:02Z [  721.0s]  36.4% | ETA 24m40s | INFO  | VELA-58347-B10-79185: target scanned (670 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:28:03Z [  721.5s]  36.8% | ETA 17m33s | INFO  | VELA-58347-B10-79185: control block-permutation done
+2026-08-05T08:28:10Z [  729.0s]  37.2% | ETA 18m05s | INFO  | VELA-58347-B10-79185: control offpulse-+0.250 done
+2026-08-05T08:28:18Z [  736.5s]  37.6% | ETA 18m28s | INFO  | VELA-58347-B10-79185: control offpulse-+0.500 done
+2026-08-05T08:28:25Z [  744.0s]  38.0% | ETA 18m39s | INFO  | VELA-58347-B10-79185: control offpulse-+0.750 done
+2026-08-05T08:28:33Z [  751.5s]  38.4% | ETA 18m46s | INFO  | VELA-58347-B10-79185: control wrong-period--0.02000 done
+2026-08-05T08:28:40Z [  759.0s]  38.8% | ETA 18m47s | INFO  | VELA-58347-B10-79185: control wrong-period-+0.02000 done
+2026-08-05T08:28:52Z [  770.6s]  39.2% | ETA 21m52s | INFO  | VELA-58347-B10-79185: control wrong-dm--0.250 done
+2026-08-05T08:29:04Z [  782.3s]  39.6% | ETA 24m00s | INFO  | VELA-58347-B10-79185: control wrong-dm-+0.250 done
+2026-08-05T08:29:04Z [  782.7s]  40.0% | ETA 16m59s | INFO  | VELA-58347-B10-79185: split-half recurrence checked
+2026-08-05T08:29:06Z [  784.4s]  40.0% | ETA 16m59s | INFO  | VELA-58347-B11-79305: loading + extracting target
+2026-08-05T08:29:19Z [  798.1s]  40.4% | ETA 23m19s | INFO  | VELA-58347-B11-79305: target scanned (671 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:29:20Z [  798.6s]  40.8% | ETA 16m34s | INFO  | VELA-58347-B11-79305: control block-permutation done
+2026-08-05T08:29:27Z [  806.1s]  41.2% | ETA 17m00s | INFO  | VELA-58347-B11-79305: control offpulse-+0.250 done
+2026-08-05T08:29:35Z [  813.5s]  41.6% | ETA 17m13s | INFO  | VELA-58347-B11-79305: control offpulse-+0.500 done
+2026-08-05T08:29:42Z [  820.9s]  42.0% | ETA 17m22s | INFO  | VELA-58347-B11-79305: control offpulse-+0.750 done
+2026-08-05T08:29:50Z [  828.4s]  42.4% | ETA 17m28s | INFO  | VELA-58347-B11-79305: control wrong-period--0.02000 done
+2026-08-05T08:29:57Z [  835.9s]  42.8% | ETA 17m30s | INFO  | VELA-58347-B11-79305: control wrong-period-+0.02000 done
+2026-08-05T08:30:09Z [  847.5s]  43.2% | ETA 20m22s | INFO  | VELA-58347-B11-79305: control wrong-dm--0.250 done
+2026-08-05T08:30:20Z [  859.0s]  43.6% | ETA 22m19s | INFO  | VELA-58347-B11-79305: control wrong-dm-+0.250 done
+2026-08-05T08:30:21Z [  859.4s]  44.0% | ETA 15m48s | INFO  | VELA-58347-B11-79305: split-half recurrence checked
+2026-08-05T08:30:23Z [  861.2s]  44.0% | ETA 15m48s | INFO  | VELA-58347-B12-79427: loading + extracting target
+2026-08-05T08:30:36Z [  874.6s]  44.4% | ETA 21m32s | INFO  | VELA-58347-B12-79427: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:30:36Z [  875.1s]  44.8% | ETA 15m18s | INFO  | VELA-58347-B12-79427: control block-permutation done
+2026-08-05T08:30:44Z [  882.6s]  45.2% | ETA 15m45s | INFO  | VELA-58347-B12-79427: control offpulse-+0.250 done
+2026-08-05T08:30:51Z [  890.1s]  45.6% | ETA 16m03s | INFO  | VELA-58347-B12-79427: control offpulse-+0.500 done
+2026-08-05T08:30:59Z [  897.6s]  46.0% | ETA 16m11s | INFO  | VELA-58347-B12-79427: control offpulse-+0.750 done
+2026-08-05T08:31:06Z [  905.1s]  46.4% | ETA 16m18s | INFO  | VELA-58347-B12-79427: control wrong-period--0.02000 done
+2026-08-05T08:31:14Z [  912.5s]  46.8% | ETA 16m15s | INFO  | VELA-58347-B12-79427: control wrong-period-+0.02000 done
+2026-08-05T08:31:25Z [  924.1s]  47.2% | ETA 18m56s | INFO  | VELA-58347-B12-79427: control wrong-dm--0.250 done
+2026-08-05T08:31:37Z [  935.6s]  47.6% | ETA 20m41s | INFO  | VELA-58347-B12-79427: control wrong-dm-+0.250 done
+2026-08-05T08:31:37Z [  936.0s]  48.0% | ETA 14m37s | INFO  | VELA-58347-B12-79427: split-half recurrence checked
+2026-08-05T08:31:39Z [  937.7s]  48.0% | ETA 14m37s | INFO  | VELA-58347-B13-79545: loading + extracting target
+2026-08-05T08:31:53Z [  952.1s]  48.4% | ETA 20m30s | INFO  | VELA-58347-B13-79545: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:31:54Z [  952.5s]  48.8% | ETA 14m33s | INFO  | VELA-58347-B13-79545: control block-permutation done
+2026-08-05T08:32:02Z [  960.8s]  49.2% | ETA 15m22s | INFO  | VELA-58347-B13-79545: control offpulse-+0.250 done
+2026-08-05T08:32:10Z [  969.1s]  49.6% | ETA 15m51s | INFO  | VELA-58347-B13-79545: control offpulse-+0.500 done
+2026-08-05T08:32:19Z [  977.3s]  50.0% | ETA 16m10s | INFO  | VELA-58347-B13-79545: control offpulse-+0.750 done
+2026-08-05T08:32:27Z [  985.5s]  50.4% | ETA 16m19s | INFO  | VELA-58347-B13-79545: control wrong-period--0.02000 done
+2026-08-05T08:32:35Z [  993.7s]  50.8% | ETA 16m23s | INFO  | VELA-58347-B13-79545: control wrong-period-+0.02000 done
+2026-08-05T08:32:47Z [ 1006.0s]  51.2% | ETA 18m52s | INFO  | VELA-58347-B13-79545: control wrong-dm--0.250 done
+2026-08-05T08:33:00Z [ 1018.3s]  51.6% | ETA 20m33s | INFO  | VELA-58347-B13-79545: control wrong-dm-+0.250 done
+2026-08-05T08:33:00Z [ 1018.7s]  52.0% | ETA 14m30s | INFO  | VELA-58347-B13-79545: split-half recurrence checked
+2026-08-05T08:33:02Z [ 1020.5s]  52.0% | ETA 14m30s | INFO  | VELA-58348-B1-17649: loading + extracting target
+2026-08-05T08:33:15Z [ 1034.1s]  52.4% | ETA 19m11s | INFO  | VELA-58348-B1-17649: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:33:16Z [ 1034.5s]  52.8% | ETA 13m35s | INFO  | VELA-58348-B1-17649: control block-permutation done
+2026-08-05T08:33:23Z [ 1042.1s]  53.2% | ETA 13m50s | INFO  | VELA-58348-B1-17649: control offpulse-+0.250 done
+2026-08-05T08:33:31Z [ 1049.5s]  53.6% | ETA 13m53s | INFO  | VELA-58348-B1-17649: control offpulse-+0.500 done
+2026-08-05T08:33:38Z [ 1056.9s]  54.0% | ETA 13m56s | INFO  | VELA-58348-B1-17649: control offpulse-+0.750 done
+2026-08-05T08:33:46Z [ 1064.4s]  54.4% | ETA 13m56s | INFO  | VELA-58348-B1-17649: control wrong-period--0.02000 done
+2026-08-05T08:33:53Z [ 1071.8s]  54.8% | ETA 13m51s | INFO  | VELA-58348-B1-17649: control wrong-period-+0.02000 done
+2026-08-05T08:34:05Z [ 1083.5s]  55.2% | ETA 16m07s | INFO  | VELA-58348-B1-17649: control wrong-dm--0.250 done
+2026-08-05T08:34:16Z [ 1095.1s]  55.6% | ETA 17m37s | INFO  | VELA-58348-B1-17649: control wrong-dm-+0.250 done
+2026-08-05T08:34:17Z [ 1095.5s]  56.0% | ETA 12m27s | INFO  | VELA-58348-B1-17649: split-half recurrence checked
+2026-08-05T08:34:19Z [ 1097.2s]  56.0% | ETA 12m27s | INFO  | VELA-58348-B2-17760: loading + extracting target
+2026-08-05T08:34:32Z [ 1110.7s]  56.4% | ETA 16m56s | INFO  | VELA-58348-B2-17760: target scanned (671 pulses, verdict=interesting_but_inconclusive)
+2026-08-05T08:34:33Z [ 1111.2s]  56.8% | ETA 12m00s | INFO  | VELA-58348-B2-17760: control block-permutation done
+2026-08-05T08:34:40Z [ 1118.7s]  57.2% | ETA 12m20s | INFO  | VELA-58348-B2-17760: control offpulse-+0.250 done
+2026-08-05T08:34:47Z [ 1126.1s]  57.6% | ETA 12m30s | INFO  | VELA-58348-B2-17760: control offpulse-+0.500 done
+2026-08-05T08:34:55Z [ 1133.6s]  58.0% | ETA 12m35s | INFO  | VELA-58348-B2-17760: control offpulse-+0.750 done
+2026-08-05T08:35:02Z [ 1141.1s]  58.4% | ETA 12m38s | INFO  | VELA-58348-B2-17760: control wrong-period--0.02000 done
+2026-08-05T08:35:10Z [ 1148.7s]  58.8% | ETA 12m39s | INFO  | VELA-58348-B2-17760: control wrong-period-+0.02000 done
+2026-08-05T08:35:22Z [ 1160.3s]  59.2% | ETA 14m41s | INFO  | VELA-58348-B2-17760: control wrong-dm--0.250 done
+2026-08-05T08:35:33Z [ 1171.9s]  59.6% | ETA 16m01s | INFO  | VELA-58348-B2-17760: control wrong-dm-+0.250 done
+2026-08-05T08:35:34Z [ 1172.3s]  60.0% | ETA 11m18s | INFO  | VELA-58348-B2-17760: split-half recurrence checked
+2026-08-05T08:35:35Z [ 1174.0s]  60.0% | ETA 11m18s | INFO  | VELA-58348-B3-17871: loading + extracting target
+2026-08-05T08:35:49Z [ 1187.5s]  60.4% | ETA 15m24s | INFO  | VELA-58348-B3-17871: target scanned (671 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:35:49Z [ 1188.0s]  60.8% | ETA 10m54s | INFO  | VELA-58348-B3-17871: control block-permutation done
+2026-08-05T08:35:57Z [ 1195.6s]  61.2% | ETA 11m13s | INFO  | VELA-58348-B3-17871: control offpulse-+0.250 done
+2026-08-05T08:36:04Z [ 1203.1s]  61.6% | ETA 11m23s | INFO  | VELA-58348-B3-17871: control offpulse-+0.500 done
+2026-08-05T08:36:12Z [ 1210.7s]  62.0% | ETA 11m29s | INFO  | VELA-58348-B3-17871: control offpulse-+0.750 done
+2026-08-05T08:36:19Z [ 1218.1s]  62.4% | ETA 11m26s | INFO  | VELA-58348-B3-17871: control wrong-period--0.02000 done
+2026-08-05T08:36:27Z [ 1225.6s]  62.8% | ETA 11m25s | INFO  | VELA-58348-B3-17871: control wrong-period-+0.02000 done
+2026-08-05T08:36:39Z [ 1237.2s]  63.2% | ETA 13m13s | INFO  | VELA-58348-B3-17871: control wrong-dm--0.250 done
+2026-08-05T08:36:50Z [ 1248.7s]  63.6% | ETA 14m23s | INFO  | VELA-58348-B3-17871: control wrong-dm-+0.250 done
+2026-08-05T08:36:50Z [ 1249.1s]  64.0% | ETA 10m08s | INFO  | VELA-58348-B3-17871: split-half recurrence checked
+2026-08-05T08:36:52Z [ 1250.8s]  64.0% | ETA 10m08s | INFO  | VELA-58348-B4-17982: loading + extracting target
+2026-08-05T08:37:06Z [ 1265.1s]  64.4% | ETA 14m08s | INFO  | VELA-58348-B4-17982: target scanned (671 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:37:07Z [ 1265.6s]  64.8% |  ETA 9m59s | INFO  | VELA-58348-B4-17982: control block-permutation done
+2026-08-05T08:37:15Z [ 1273.9s]  65.2% | ETA 10m31s | INFO  | VELA-58348-B4-17982: control offpulse-+0.250 done
+2026-08-05T08:37:24Z [ 1282.2s]  65.6% | ETA 10m52s | INFO  | VELA-58348-B4-17982: control offpulse-+0.500 done
+2026-08-05T08:37:32Z [ 1290.5s]  66.0% | ETA 11m01s | INFO  | VELA-58348-B4-17982: control offpulse-+0.750 done
+2026-08-05T08:37:40Z [ 1298.7s]  66.4% | ETA 11m06s | INFO  | VELA-58348-B4-17982: control wrong-period--0.02000 done
+2026-08-05T08:37:48Z [ 1307.0s]  66.8% | ETA 11m07s | INFO  | VELA-58348-B4-17982: control wrong-period-+0.02000 done
+2026-08-05T08:38:01Z [ 1319.5s]  67.2% | ETA 12m47s | INFO  | VELA-58348-B4-17982: control wrong-dm--0.250 done
+2026-08-05T08:38:13Z [ 1331.8s]  67.6% | ETA 13m50s | INFO  | VELA-58348-B4-17982: control wrong-dm-+0.250 done
+2026-08-05T08:38:14Z [ 1332.2s]  68.0% |  ETA 9m44s | INFO  | VELA-58348-B4-17982: split-half recurrence checked
+2026-08-05T08:38:15Z [ 1334.0s]  68.0% |  ETA 9m44s | INFO  | VELA-58348-B5-18093: loading + extracting target
+2026-08-05T08:38:29Z [ 1347.5s]  68.4% | ETA 12m46s | INFO  | VELA-58348-B5-18093: target scanned (669 pulses, verdict=interesting_but_inconclusive)
+2026-08-05T08:38:29Z [ 1348.0s]  68.8% |  ETA 9m00s | INFO  | VELA-58348-B5-18093: control block-permutation done
+2026-08-05T08:38:37Z [ 1355.4s]  69.2% |  ETA 9m06s | INFO  | VELA-58348-B5-18093: control offpulse-+0.250 done
+2026-08-05T08:38:44Z [ 1363.0s]  69.6% |  ETA 9m08s | INFO  | VELA-58348-B5-18093: control offpulse-+0.500 done
+2026-08-05T08:38:52Z [ 1370.4s]  70.0% |  ETA 9m06s | INFO  | VELA-58348-B5-18093: control offpulse-+0.750 done
+2026-08-05T08:38:59Z [ 1377.8s]  70.4% |  ETA 9m02s | INFO  | VELA-58348-B5-18093: control wrong-period--0.02000 done
+2026-08-05T08:39:07Z [ 1385.4s]  70.8% |  ETA 8m59s | INFO  | VELA-58348-B5-18093: control wrong-period-+0.02000 done
+2026-08-05T08:39:18Z [ 1397.0s]  71.2% | ETA 10m22s | INFO  | VELA-58348-B5-18093: control wrong-dm--0.250 done
+2026-08-05T08:39:30Z [ 1408.5s]  71.6% | ETA 11m16s | INFO  | VELA-58348-B5-18093: control wrong-dm-+0.250 done
+2026-08-05T08:39:30Z [ 1408.9s]  72.0% |  ETA 7m54s | INFO  | VELA-58348-B5-18093: split-half recurrence checked
+2026-08-05T08:39:32Z [ 1410.7s]  72.0% |  ETA 7m54s | INFO  | VELA-58348-B6-18209: loading + extracting target
+2026-08-05T08:39:46Z [ 1425.0s]  72.4% | ETA 10m59s | INFO  | VELA-58348-B6-18209: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:39:47Z [ 1425.4s]  72.8% |  ETA 7m44s | INFO  | VELA-58348-B6-18209: control block-permutation done
+2026-08-05T08:39:55Z [ 1433.7s]  73.2% |  ETA 8m06s | INFO  | VELA-58348-B6-18209: control offpulse-+0.250 done
+2026-08-05T08:40:03Z [ 1441.9s]  73.6% |  ETA 8m18s | INFO  | VELA-58348-B6-18209: control offpulse-+0.500 done
+2026-08-05T08:40:12Z [ 1450.3s]  74.0% |  ETA 8m26s | INFO  | VELA-58348-B6-18209: control offpulse-+0.750 done
+2026-08-05T08:40:20Z [ 1459.0s]  74.4% |  ETA 8m37s | INFO  | VELA-58348-B6-18209: control wrong-period--0.02000 done
+2026-08-05T08:40:29Z [ 1467.5s]  74.8% |  ETA 8m37s | INFO  | VELA-58348-B6-18209: control wrong-period-+0.02000 done
+2026-08-05T08:40:42Z [ 1480.3s]  75.2% |  ETA 9m53s | INFO  | VELA-58348-B6-18209: control wrong-dm--0.250 done
+2026-08-05T08:40:55Z [ 1493.2s]  75.6% | ETA 10m44s | INFO  | VELA-58348-B6-18209: control wrong-dm-+0.250 done
+2026-08-05T08:40:55Z [ 1493.6s]  76.0% |  ETA 7m31s | INFO  | VELA-58348-B6-18209: split-half recurrence checked
+2026-08-05T08:40:57Z [ 1495.4s]  76.0% |  ETA 7m31s | INFO  | VELA-58348-B7-18321: loading + extracting target
+2026-08-05T08:41:12Z [ 1510.3s]  76.4% | ETA 10m06s | INFO  | VELA-58348-B7-18321: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:41:12Z [ 1510.8s]  76.8% |  ETA 7m06s | INFO  | VELA-58348-B7-18321: control block-permutation done
+2026-08-05T08:41:21Z [ 1520.1s]  77.2% |  ETA 7m32s | INFO  | VELA-58348-B7-18321: control offpulse-+0.250 done
+2026-08-05T08:41:31Z [ 1529.2s]  77.6% |  ETA 7m44s | INFO  | VELA-58348-B7-18321: control offpulse-+0.500 done
+2026-08-05T08:41:40Z [ 1538.5s]  78.0% |  ETA 7m51s | INFO  | VELA-58348-B7-18321: control offpulse-+0.750 done
+2026-08-05T08:41:49Z [ 1547.6s]  78.4% |  ETA 7m52s | INFO  | VELA-58348-B7-18321: control wrong-period--0.02000 done
+2026-08-05T08:41:58Z [ 1556.8s]  78.8% |  ETA 7m50s | INFO  | VELA-58348-B7-18321: control wrong-period-+0.02000 done
+2026-08-05T08:42:11Z [ 1569.6s]  79.2% |  ETA 8m42s | INFO  | VELA-58348-B7-18321: control wrong-dm--0.250 done
+2026-08-05T08:42:24Z [ 1582.3s]  79.6% |  ETA 9m13s | INFO  | VELA-58348-B7-18321: control wrong-dm-+0.250 done
+2026-08-05T08:42:24Z [ 1582.7s]  80.0% |  ETA 6m26s | INFO  | VELA-58348-B7-18321: split-half recurrence checked
+2026-08-05T08:42:26Z [ 1584.6s]  80.0% |  ETA 6m26s | INFO  | VELA-58348-B8-18428: loading + extracting target
+2026-08-05T08:42:41Z [ 1599.4s]  80.4% |  ETA 8m29s | INFO  | VELA-58348-B8-18428: target scanned (670 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:42:41Z [ 1599.9s]  80.8% |  ETA 5m56s | INFO  | VELA-58348-B8-18428: control block-permutation done
+2026-08-05T08:42:50Z [ 1608.3s]  81.2% |  ETA 6m02s | INFO  | VELA-58348-B8-18428: control offpulse-+0.250 done
+2026-08-05T08:42:58Z [ 1616.5s]  81.6% |  ETA 6m02s | INFO  | VELA-58348-B8-18428: control offpulse-+0.500 done
+2026-08-05T08:43:06Z [ 1625.1s]  82.0% |  ETA 6m03s | INFO  | VELA-58348-B8-18428: control offpulse-+0.750 done
+2026-08-05T08:43:15Z [ 1633.5s]  82.4% |  ETA 6m00s | INFO  | VELA-58348-B8-18428: control wrong-period--0.02000 done
+2026-08-05T08:43:23Z [ 1641.7s]  82.8% |  ETA 5m52s | INFO  | VELA-58348-B8-18428: control wrong-period-+0.02000 done
+2026-08-05T08:43:35Z [ 1653.9s]  83.2% |  ETA 6m33s | INFO  | VELA-58348-B8-18428: control wrong-dm--0.250 done
+2026-08-05T08:43:47Z [ 1665.7s]  83.6% |  ETA 6m54s | INFO  | VELA-58348-B8-18428: control wrong-dm-+0.250 done
+2026-08-05T08:43:47Z [ 1666.1s]  84.0% |  ETA 4m47s | INFO  | VELA-58348-B8-18428: split-half recurrence checked
+2026-08-05T08:43:49Z [ 1667.8s]  84.0% |  ETA 4m47s | INFO  | VELA-58348-B9-18547: loading + extracting target
+2026-08-05T08:44:03Z [ 1681.5s]  84.4% |  ETA 6m17s | INFO  | VELA-58348-B9-18547: target scanned (669 pulses, verdict=interesting_but_inconclusive)
+2026-08-05T08:44:03Z [ 1682.0s]  84.8% |  ETA 4m22s | INFO  | VELA-58348-B9-18547: control block-permutation done
+2026-08-05T08:44:11Z [ 1689.6s]  85.2% |  ETA 4m23s | INFO  | VELA-58348-B9-18547: control offpulse-+0.250 done
+2026-08-05T08:44:19Z [ 1697.4s]  85.6% |  ETA 4m23s | INFO  | VELA-58348-B9-18547: control offpulse-+0.500 done
+2026-08-05T08:44:26Z [ 1705.1s]  86.0% |  ETA 4m19s | INFO  | VELA-58348-B9-18547: control offpulse-+0.750 done
+2026-08-05T08:44:34Z [ 1712.7s]  86.4% |  ETA 4m14s | INFO  | VELA-58348-B9-18547: control wrong-period--0.02000 done
+2026-08-05T08:44:42Z [ 1720.3s]  86.8% |  ETA 4m08s | INFO  | VELA-58348-B9-18547: control wrong-period-+0.02000 done
+2026-08-05T08:44:53Z [ 1732.1s]  87.2% |  ETA 4m41s | INFO  | VELA-58348-B9-18547: control wrong-dm--0.250 done
+2026-08-05T08:45:05Z [ 1743.8s]  87.6% |  ETA 4m59s | INFO  | VELA-58348-B9-18547: control wrong-dm-+0.250 done
+2026-08-05T08:45:06Z [ 1744.2s]  88.0% |  ETA 3m26s | INFO  | VELA-58348-B9-18547: split-half recurrence checked
+2026-08-05T08:45:07Z [ 1746.0s]  88.0% |  ETA 3m26s | INFO  | VELA-58348-B10-18662: loading + extracting target
+2026-08-05T08:45:21Z [ 1759.8s]  88.4% |  ETA 4m35s | INFO  | VELA-58348-B10-18662: target scanned (670 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:45:22Z [ 1760.2s]  88.8% |  ETA 3m10s | INFO  | VELA-58348-B10-18662: control block-permutation done
+2026-08-05T08:45:29Z [ 1767.9s]  89.2% |  ETA 3m10s | INFO  | VELA-58348-B10-18662: control offpulse-+0.250 done
+2026-08-05T08:45:37Z [ 1775.6s]  89.6% |  ETA 3m08s | INFO  | VELA-58348-B10-18662: control offpulse-+0.500 done
+2026-08-05T08:45:45Z [ 1783.2s]  90.0% |  ETA 3m03s | INFO  | VELA-58348-B10-18662: control offpulse-+0.750 done
+2026-08-05T08:45:52Z [ 1790.9s]  90.4% |  ETA 2m58s | INFO  | VELA-58348-B10-18662: control wrong-period--0.02000 done
+2026-08-05T08:46:00Z [ 1798.6s]  90.8% |  ETA 2m53s | INFO  | VELA-58348-B10-18662: control wrong-period-+0.02000 done
+2026-08-05T08:46:12Z [ 1810.3s]  91.2% |  ETA 3m13s | INFO  | VELA-58348-B10-18662: control wrong-dm--0.250 done
+2026-08-05T08:46:24Z [ 1822.2s]  91.6% |  ETA 3m24s | INFO  | VELA-58348-B10-18662: control wrong-dm-+0.250 done
+2026-08-05T08:46:24Z [ 1822.6s]  92.0% |  ETA 2m18s | INFO  | VELA-58348-B10-18662: split-half recurrence checked
+2026-08-05T08:46:26Z [ 1824.4s]  92.0% |  ETA 2m18s | INFO  | VELA-58348-B11-18772: loading + extracting target
+2026-08-05T08:46:39Z [ 1838.1s]  92.4% |  ETA 3m00s | INFO  | VELA-58348-B11-18772: target scanned (671 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:46:40Z [ 1838.6s]  92.8% |  ETA 2m02s | INFO  | VELA-58348-B11-18772: control block-permutation done
+2026-08-05T08:46:48Z [ 1846.3s]  93.2% |  ETA 2m00s | INFO  | VELA-58348-B11-18772: control offpulse-+0.250 done
+2026-08-05T08:46:55Z [ 1854.0s]  93.6% |  ETA 1m55s | INFO  | VELA-58348-B11-18772: control offpulse-+0.500 done
+2026-08-05T08:47:03Z [ 1861.7s]  94.0% |  ETA 1m50s | INFO  | VELA-58348-B11-18772: control offpulse-+0.750 done
+2026-08-05T08:47:11Z [ 1869.3s]  94.4% |  ETA 1m44s | INFO  | VELA-58348-B11-18772: control wrong-period--0.02000 done
+2026-08-05T08:47:18Z [ 1877.1s]  94.8% |  ETA 1m38s | INFO  | VELA-58348-B11-18772: control wrong-period-+0.02000 done
+2026-08-05T08:47:30Z [ 1888.9s]  95.2% |  ETA 1m46s | INFO  | VELA-58348-B11-18772: control wrong-dm--0.250 done
+2026-08-05T08:47:42Z [ 1900.6s]  95.6% |  ETA 1m46s | INFO  | VELA-58348-B11-18772: control wrong-dm-+0.250 done
+2026-08-05T08:47:42Z [ 1901.0s]  96.0% |  ETA 1m09s | INFO  | VELA-58348-B11-18772: split-half recurrence checked
+2026-08-05T08:47:44Z [ 1902.8s]  96.0% |  ETA 1m09s | INFO  | VELA-58348-B12-18884: loading + extracting target
+2026-08-05T08:47:58Z [ 1916.5s]  96.4% |  ETA 1m25s | INFO  | VELA-58348-B12-18884: target scanned (669 pulses, verdict=consistent_with_fitted_natural_model)
+2026-08-05T08:47:58Z [ 1917.0s]  96.8% |  ETA 0m54s | INFO  | VELA-58348-B12-18884: control block-permutation done
+2026-08-05T08:48:06Z [ 1924.7s]  97.2% |  ETA 0m49s | INFO  | VELA-58348-B12-18884: control offpulse-+0.250 done
+2026-08-05T08:48:14Z [ 1932.3s]  97.6% |  ETA 0m43s | INFO  | VELA-58348-B12-18884: control offpulse-+0.500 done
+2026-08-05T08:48:21Z [ 1940.1s]  98.0% |  ETA 0m36s | INFO  | VELA-58348-B12-18884: control offpulse-+0.750 done
+2026-08-05T08:48:29Z [ 1947.7s]  98.4% |  ETA 0m29s | INFO  | VELA-58348-B12-18884: control wrong-period--0.02000 done
+2026-08-05T08:48:37Z [ 1955.4s]  98.8% |  ETA 0m22s | INFO  | VELA-58348-B12-18884: control wrong-period-+0.02000 done
+2026-08-05T08:48:49Z [ 1967.3s]  99.2% |  ETA 0m17s | INFO  | VELA-58348-B12-18884: control wrong-dm--0.250 done
+2026-08-05T08:49:00Z [ 1979.1s]  99.6% |  ETA 0m09s | INFO  | VELA-58348-B12-18884: control wrong-dm-+0.250 done
+2026-08-05T08:49:01Z [ 1979.5s] 100.0% |  ETA 0m00s | INFO  | VELA-58348-B12-18884: split-half recurrence checked
+2026-08-05T08:49:02Z [ 1980.4s] 100.0% |  ETA 0m00s | INFO  | experiment complete: 25 ok, 0 failed, 0 follow-up candidate(s)

@@ -1,0 +1,40 @@
+{
+  "source_id": "BLIND-SYNTH-NATURAL",
+  "channel": "amplitude",
+  "strengths_sigma": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "trials_per_strength": 2,
+  "surrogate_count": 128,
+  "seed": 20260804,
+  "minimum_possible_adjusted_p": 0.031007751937984496,
+  "registered_threshold_resolvable": true,
+  "points": [
+    {
+      "strength_sigma": 0.0,
+      "trials": 2,
+      "detected": 0,
+      "detection_rate": 0.0,
+      "median_adjusted_p": 0.13953488372093023,
+      "median_compression_gain_bits": 144.0
+    },
+    {
+      "strength_sigma": 1.0,
+      "trials": 2,
+      "detected": 2,
+      "detection_rate": 1.0,
+      "median_adjusted_p": 0.031007751937984496,
+      "median_compression_gain_bits": 1936.0
+    },
+    {
+      "strength_sigma": 2.0,
+      "trials": 2,
+      "detected": 2,
+      "detection_rate": 1.0,
+      "median_adjusted_p": 0.031007751937984496,
+      "median_compression_gain_bits": 1370.0
+    }
+  ]
+}

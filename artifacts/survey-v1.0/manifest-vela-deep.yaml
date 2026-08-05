@@ -1,0 +1,557 @@
+# Frozen v1.0 deep Vela batch - all cached multibeam epochs except the
+# held-out recurrence epoch (guppi_58348_19002_456667_J0835-4510_B13_0001.0001.fil), reserved BEFORE scanning.
+# Whitening ON (Amendment 1). Thresholds: PREREGISTRATION.md, unchanged.
+experiment_id: vela-deep-batch-v1.0
+seed: 20260810
+surrogate_count: 2048
+observations:
+- id: VELA-58347-B1-78145
+  path: ../../data/guppi_58347_78145_445294_J0835-4510_B1_0001.0001.fil
+  sha256: a13e6dfc1503b1e4423eb02e81703a99eca645b2d8eba8604e46982b89fc0a65
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B2-78261
+  path: ../../data/guppi_58347_78261_445343_J0835-4510_B2_0001.0001.fil
+  sha256: 580089d922873e31e204e03a9beb74c8bdd169d5f3ef24b726b9adb2ed3d8887
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B3-78373
+  path: ../../data/guppi_58347_78373_445389_J0835-4510_B3_0001.0001.fil
+  sha256: 0b95e5cafba9d61d6739251e97f29870201a6c5ee822d39589278e09fa9fd20f
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B4-78494
+  path: ../../data/guppi_58347_78494_445440_J0835-4510_B4_0001.0001.fil
+  sha256: 7fa070e2599cddbdb75e1b672862f9fcb4bd63efbeba5dde5f4d190218d0e48f
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B5-78613
+  path: ../../data/guppi_58347_78613_445490_J0835-4510_B5_0001.0001.fil
+  sha256: c733ac1c96aee99ce8bfac34f1e6a64f45c1fafbcfb9abffcc93691a1edc5ddd
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B6-78732
+  path: ../../data/guppi_58347_78732_445539_J0835-4510_B6_0001.0001.fil
+  sha256: 25c581d5ed79541f82f388849f6ef878679664375d7e641fdd21c626d0d064a8
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B7-78842
+  path: ../../data/guppi_58347_78842_445585_J0835-4510_B7_0001.0001.fil
+  sha256: 5ebe77ba11df6475f3097db1aee171bdb268b6d77d9d6be1c35b8320663ce4c8
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B8-78951
+  path: ../../data/guppi_58347_78951_445631_J0835-4510_B8_0001.0001.fil
+  sha256: 4744b2df05b1c66194fb7b1ae1ee8fb0f63740a15863611cb0edb1e5f5f2422f
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B9-79065
+  path: ../../data/guppi_58347_79065_445678_J0835-4510_B9_0001.0001.fil
+  sha256: 6d5c09170fe730517ce279fce24f8980833405a0d38b89b32a54b5f04bc371a7
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B10-79185
+  path: ../../data/guppi_58347_79185_445728_J0835-4510_B10_0001.0001.fil
+  sha256: f19dabfcc0696afb14b49cc2e5d070bfd46108b616ab3916e3c377e14376006f
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B11-79305
+  path: ../../data/guppi_58347_79305_445778_J0835-4510_B11_0001.0001.fil
+  sha256: 5e0fc54566f8342096cd57c6efcab5f5231edc899dbe237220bdf48aba55e753
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B12-79427
+  path: ../../data/guppi_58347_79427_445829_J0835-4510_B12_0001.0001.fil
+  sha256: b2a2f955aefc1a046930883580e368d10fcb2f59b920fff1f74d2629ae3754b7
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58347-B13-79545
+  path: ../../data/guppi_58347_79545_445878_J0835-4510_B13_0001.0001.fil
+  sha256: ba5bd7f61254512c8e511ba9001930628e60d4c7e2c36a463245d9f9a6ab9a51
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B1-17649
+  path: ../../data/guppi_58348_17649_456102_J0835-4510_B1_0001.0001.fil
+  sha256: c4b42a591fe6aa6a5a8b118f3462b38ff6f0c3c91878ce3970805b543be31356
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B2-17760
+  path: ../../data/guppi_58348_17760_456149_J0835-4510_B2_0001.0001.fil
+  sha256: f540de8f88c995218e2e2fddc4b22093c3245a3f7582742d9f694aa8c9610441
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B3-17871
+  path: ../../data/guppi_58348_17871_456195_J0835-4510_B3_0001.0001.fil
+  sha256: 2c3aea948b9fb85c5c1f7e3379da9dfa47f87a98800b54c6a91ad9bb294a80bf
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B4-17982
+  path: ../../data/guppi_58348_17982_456241_J0835-4510_B4_0001.0001.fil
+  sha256: c0f54b28c1f7d1240d0abdf006da39aeb6dcda48440a548a3effa902b1df5f23
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B5-18093
+  path: ../../data/guppi_58348_18093_456287_J0835-4510_B5_0001.0001.fil
+  sha256: 1fe9e53a8d795b44d32f9129f2efdd328be4117ea1c32cfe5021a0d72feb0a38
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B6-18209
+  path: ../../data/guppi_58348_18209_456336_J0835-4510_B6_0001.0001.fil
+  sha256: 4f1420467018315ae96da069ddc8eed27ede2c07ecdc02f9025c7de72826945f
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B7-18321
+  path: ../../data/guppi_58348_18321_456383_J0835-4510_B7_0001.0001.fil
+  sha256: e26607eb7ecf0cbbd9f7e9f4a2734dff51ce83c0c005ec81d527e057198e058b
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B8-18428
+  path: ../../data/guppi_58348_18428_456427_J0835-4510_B8_0001.0001.fil
+  sha256: 25825192722c60904f1edacafc00d399df5c45f88536795fe176f2047bc61076
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B9-18547
+  path: ../../data/guppi_58348_18547_456477_J0835-4510_B9_0001.0001.fil
+  sha256: 97306474f09e367b07a09bfc387e88ab22741f4a7a2ff7fb479f7822a1e441c3
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B10-18662
+  path: ../../data/guppi_58348_18662_456525_J0835-4510_B10_0001.0001.fil
+  sha256: b74991648621a421e35597b7920fe5c99072eda444f1e37895b6e22e84ca0bd1
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B11-18772
+  path: ../../data/guppi_58348_18772_456571_J0835-4510_B11_0001.0001.fil
+  sha256: b01781abb31f231e95556ffbe08ea06b8c34f63d3bebf0b1257fabab6784fd30
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: VELA-58348-B12-18884
+  path: ../../data/guppi_58348_18884_456618_J0835-4510_B12_0001.0001.fil
+  sha256: f99390e38509c307154132ed5aa74f5d695e8363359592f4658358ea2373fd47
+  format: filterbank
+  period_s: 0.0893
+  dm_pc_cm3: 67.97
+  refine_period_fraction: 0.002
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32

@@ -1,0 +1,52 @@
+# Frozen v0.9 manifest - true off-source (blank-sky) validation.
+# HIP star-field scans from the SAME session/backend as the Crab data,
+# folded at the Crab ephemeris. Registered expectation: NULL. Any
+# structure found is instrument-only and completes artifact attribution.
+experiment_id: gbt-offsource-validation-v0.9
+seed: 20260809
+surrogate_count: 2048
+observations:
+- id: OFFSRC-HIP20369-0039
+  path: ../../data/spliced_blc0001020304050607_guppi_57792_05013_HIP20369_0039.gpuspec.8.0001.h5
+  sha256: 018d235ef60c6cedb713552bf641c4a936fb4b35b4ba7d32316f4ecde16f6cb0
+  format: hdf5
+  period_s: 0.0337204
+  dm_pc_cm3: 56.77
+  refine_period_fraction: null
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32
+- id: OFFSRC-HIP20482-0041
+  path: ../../data/spliced_blc0001020304050607_guppi_57792_05723_HIP20482_0041.gpuspec.8.0001.h5
+  sha256: b1aeeff304e0eb0aacc9c9a16666067edc63a14245542d119c29d1b4d76ebd9c
+  format: hdf5
+  period_s: 0.0337204
+  dm_pc_cm3: 56.77
+  refine_period_fraction: null
+  whiten_frequency: true
+  on_window_fraction: 0.1
+  rfi_z_threshold: 6.0
+  time_rfi_z_threshold: 10.0
+  offpulse_phase_offsets:
+  - 0.25
+  - 0.5
+  - 0.75
+  wrong_period_fractions:
+  - -0.02
+  - 0.02
+  wrong_dm_fractions:
+  - -0.25
+  - 0.25
+  control_block_size: 32

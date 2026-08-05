@@ -1,0 +1,8 @@
+experiment_id: pulsarnet-v0.3-dry-run
+seed: 20260804
+surrogate_count: 512
+observations:
+  - id: blind-positive
+    path: fixtures/blind-positive.npz
+    format: npz
+    control_block_size: 64

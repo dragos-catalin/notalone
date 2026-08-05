@@ -1,0 +1,133 @@
+{
+  "adjusted_p_value": 1.0,
+  "best_channel": "amplitude",
+  "candidate_frame_lengths": [
+    198,
+    183,
+    123,
+    103,
+    171
+  ],
+  "channel_metrics": {
+    "amplitude": {
+      "candidate_frame_lengths": [
+        198,
+        183,
+        123,
+        103,
+        171
+      ],
+      "compression_gain_bits": -8.0,
+      "compression_ratio": 0.22122571001494767,
+      "observed_compression_bits": 1184,
+      "one_fraction": 0.48878923766816146,
+      "strongest_lag": 198,
+      "strongest_lag_score": 0.12516458367719477,
+      "surrogate_p_value": 0.3055148853099073,
+      "transition_matrix": [
+        [
+          0.5510204081632653,
+          0.4489795918367347
+        ],
+        [
+          0.47112462006079026,
+          0.5288753799392097
+        ]
+      ]
+    },
+    "frequency": {
+      "candidate_frame_lengths": [
+        204,
+        171,
+        70,
+        55,
+        99,
+        188
+      ],
+      "compression_gain_bits": 0.0,
+      "compression_ratio": 0.22869955156950672,
+      "observed_compression_bits": 1224,
+      "one_fraction": 0.4828101644245142,
+      "strongest_lag": 204,
+      "strongest_lag_score": 0.10030561426215276,
+      "surrogate_p_value": 1.0,
+      "transition_matrix": [
+        [
+          0.49712643678160917,
+          0.5028735632183908
+        ],
+        [
+          0.5401234567901234,
+          0.45987654320987653
+        ]
+      ]
+    },
+    "polarization": {
+      "candidate_frame_lengths": [
+        162,
+        141
+      ],
+      "compression_gain_bits": 0.0,
+      "compression_ratio": 0.21823617339312407,
+      "observed_compression_bits": 1168,
+      "one_fraction": 0.5530642750373692,
+      "strongest_lag": 162,
+      "strongest_lag_score": 0.11649867595326824,
+      "surrogate_p_value": 1.0,
+      "transition_matrix": [
+        [
+          0.43666666666666665,
+          0.5633333333333334
+        ],
+        [
+          0.45698924731182794,
+          0.543010752688172
+        ]
+      ]
+    },
+    "timing": {
+      "candidate_frame_lengths": [
+        83,
+        120
+      ],
+      "compression_gain_bits": 0.0,
+      "compression_ratio": 0.21674140508221226,
+      "observed_compression_bits": 1160,
+      "one_fraction": 0.47533632286995514,
+      "strongest_lag": 83,
+      "strongest_lag_score": 0.1223992001730426,
+      "surrogate_p_value": 1.0,
+      "transition_matrix": [
+        [
+          0.48441926345609065,
+          0.5155807365439093
+        ],
+        [
+          0.567398119122257,
+          0.43260188087774293
+        ]
+      ]
+    }
+  },
+  "compression_gain_bits": -8.0,
+  "cross_channel_support": 1,
+  "n_pulses": 669,
+  "notes": [],
+  "null_fraction": 0.5112107623318386,
+  "prime_gap_enrichment": 0.6260997067448681,
+  "source_id": "J0835-4510_B9:wrong-dm--0.250",
+  "strongest_lag": 198,
+  "strongest_lag_score": 0.12516458367719477,
+  "surrogate_p_value": 0.3055148853099073,
+  "transition_matrix": [
+    [
+      0.5510204081632653,
+      0.4489795918367347
+    ],
+    [
+      0.47112462006079026,
+      0.5288753799392097
+    ]
+  ],
+  "verdict": "consistent_with_fitted_natural_model"
+}

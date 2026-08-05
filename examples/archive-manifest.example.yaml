@@ -1,0 +1,18 @@
+experiment_id: first-public-pulsar-network-scan
+seed: 20260804
+surrogate_count: 1024
+
+observations:
+  - id: JXXXX+XXXX-observation-001
+    path: /absolute/path/to/search-mode-observation.fits
+    format: psrfits
+    period_s: 0.71452
+    dm_pc_cm3: 15.35
+    on_window_fraction: 0.08
+    rfi_z_threshold: 6.0
+    # Optional zero-DM broadband RFI mitigation; omit or null to disable.
+    time_rfi_z_threshold: 8.0
+    offpulse_phase_offsets: [0.25, 0.50, 0.75]
+    wrong_period_fractions: [-0.005, 0.005]
+    wrong_dm_fractions: [-0.25, 0.25]
+    control_block_size: 64

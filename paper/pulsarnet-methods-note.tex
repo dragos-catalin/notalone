@@ -1,0 +1,195 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+
+\title{A Preregistered, Control-Gated Pipeline for Protocol-Like Modulation
+Searches in Pulsar Single-Pulse Data: Design, Validation, and a Bounded Null
+from Seven Frozen Experiments}
+
+\author{Dragos Catalin Vladulescu\\
+\small \texttt{pulsar-network-experiment} v1.0.0}
+\date{August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We describe a hypothesis-neutral software experiment that tests whether pulsar
+single-pulse feature streams contain repeated, protocol-like modulation not
+reproduced by fitted natural and statistical models. The pipeline is fully
+preregistered: feature channels, detector, surrogate ensembles, negative
+controls, escalation thresholds and a negative-result policy were frozen before
+any real data were examined, and the single preprocessing amendment made during
+the campaign was registered with an A/B verification before use. Across seven
+frozen experiments on public Breakthrough Listen data --- 45 observations of
+four pulsars and two blank-sky fields from two independent observatories (GBT
+and Parkes), totalling 63{,}005 pulse folds and ${\sim}400$ registered analyses
+--- zero candidates survive the registered detection ladder. All four Level-1
+statistical anomalies that arose were attributed to instrumental gain wander by
+the control battery, including two blank-sky detections with compression gains
+an order of magnitude above anything seen on-source. We report three
+methodological findings of standalone value for single-pulse technosignature
+searches: (i) integer-sample folding silently destroys pulse alignment for
+rotation periods that are non-integer multiples of the sampling interval;
+(ii) other beams of a multibeam receiver are not valid off-source controls for
+bright pulsars due to sidelobe detection; and (iii) a canonical instrument
+signature --- uniform Level-1 firing across all negative controls with
+split-half incompatibility --- cleanly separates backend artifacts from any
+credible sky-borne candidate. The full pipeline, frozen manifests, SHA-256
+input provenance and per-observation reports are public and reproducible.
+\end{abstract}
+
+\section{Motivation and scientific boundary}
+
+Searches for engineered structure in astrophysical time series face an
+asymmetric risk profile: false positives are cheap to generate and expensive to
+retract. This work does \emph{not} assume pulsars host artificial
+transmitters. It operationalizes a narrower, falsifiable question:
+
+\begin{quote}
+Can observed per-rotation pulse features be explained by fitted
+natural/statistical models, or do they contain repeated, self-consistent
+structure that warrants independent follow-up?
+\end{quote}
+
+A positive software result is an anomaly, never a detection claim. The
+registered escalation ladder requires, above the software level: raw-data and
+instrument-team review, off-source exclusion, predicted recurrence in a
+held-out epoch, and independent-observatory confirmation before the phrase
+``technosignature candidate'' applies.
+
+\section{Pipeline design}
+
+\subsection{Feature extraction}
+Dynamic spectra (SIGPROC filterbank, Breakthrough Listen HDF5, or search-mode
+PSRFITS) are incoherently dedispersed, RFI-masked per channel (robust
+median/MAD statistics), optionally cleaned of zero-DM broadband bursts, and
+folded at the topocentric rotation period into one feature vector per rotation
+across four registered channels: on-window amplitude, a signed polarization
+proxy, an intensity-weighted arrival-time residual, and a frequency centroid.
+
+Folding is performed in \emph{fractional phase}: sample $i$ is assigned phase
+$\phi_i = (i / P_s) \bmod 1$ with $P_s$ the (generally non-integer) period in
+samples. A registered two-stage period refinement maximizes folded-profile
+sharpness only, and is never applied to deliberately mis-folded controls.
+
+\subsection{Detector}
+Each channel is binarized by robust two-cluster thresholding; frame candidates
+are found by normalized autocorrelation over lags 32--4096; significance is
+assessed against a mixed surrogate ensemble (first-order Markov, run-length
+permutation, circular block bootstrap) with a four-channel look-elsewhere
+correction; zlib compression gain relative to the surrogate median acts as a
+protocol-likeness metric. Surrogates are deterministic per index
+(\texttt{SeedSequence(seed, spawn\_key=(index,))}), so $p$-values are
+independent of parallel scheduling --- verified bit-identical between serial
+and 16-process execution.
+
+\subsection{Controls and dispositions}
+Every observation is accompanied by: a block-permutation control (preserving
+local texture), three off-pulse windows, two wrong-period folds, two wrong-DM
+reductions, and a split-half recurrence check; batches receive
+Benjamini--Hochberg FDR correction. A target reaching the registered Level-1
+thresholds (channel-adjusted $p<0.05$, compression gain $>128$ bits) is
+\emph{rejected} if any control is at least as anomalous, if it fails split-half
+compatibility, or if it fails batch FDR ($q<0.01$).
+
+\section{Validation}
+
+\textbf{Injected positives.} A seeded red-team benchmark of 24 cases (12
+natural, 12 with injected repeated frames) yields precision $=$ recall $=1.0$
+at the operating point (12/12 true positives, 0/12 false positives).
+Injection-recovery on real extracted trains recovers $1\sigma$ and $2\sigma$
+injections at 2/2 each with 0/2 zero-strength false alarms.
+
+\textbf{Real-world true negatives.} Two blank-sky star-field scans from the
+same GBT session and backend as the pulsar data, folded at the Crab ephemeris
+with a NULL expectation registered beforehand, produced the loudest raw
+anomalies of the campaign (frequency-channel compression gains of 3{,}408 and
+2{,}424 bits at the surrogate-resolution $p$ floor) --- and both were rejected
+automatically by uniform control firing with incompatible split halves.
+
+\section{Campaign and results}
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{llrrrr}
+\toprule
+Experiment & Data & Obs & Folds & Level-1 & Candidates\\
+\midrule
+pilot-v0.4 & GBT B0329+54 (2 epochs) & 2 & 670 & 0 & 0\\
+survey-v0.5 & GBT 3 pulsars & 5 & 11{,}895 & 1 & 0\\
+survey-v0.6 & idem, whitened & 5 & 11{,}895 & 1 & 0\\
+survey-v0.7 & Parkes Vela (2 epochs) & 2 & 1{,}340 & 0 & 0\\
+survey-v0.8 & Parkes Vela (4 beams) & 4 & 2{,}678 & 0 & 0\\
+survey-v0.9 & GBT blank sky (2 fields) & 2 & 17{,}786 & 2 & 0\\
+survey-v1.0 & Parkes Vela (25 epochs) & 25 & 16{,}741 & 0 & 0\\
+\midrule
+Total & 2 observatories & 45 & 63{,}005 & 4 & \textbf{0}\\
+\bottomrule
+\end{tabular}
+\caption{Seven frozen experiments. All four Level-1 events were attributed to
+instrumental gain wander by the registered controls. One Vela epoch remains
+held out, hash-pinned and unscanned, as the recurrence test for any future
+Level-2 event.}
+\end{table}
+
+The v0.5 survey identified a lag-${\sim}36$ frequency-centroid periodicity in
+the Crab data (336-bit gain, split-half replicated) that fired identically in
+all seven dynamic controls and in an unrelated pulsar --- fast per-channel
+gain wander of the GBT/BL backend. Amendment 1 (a moving-median per-channel
+detrend across rotations, window ${\sim}33$ rotations, registered with an A/B
+verification: gain $336 \to 0$, adjusted $p\,0.0078 \to 1.0$) removed it; the
+v0.6 re-run then exposed a slower wander (lag ${\sim}472$, ${\sim}16$\,s)
+which the off-pulse controls rejected live, and the v0.9 blank-sky runs proved
+both components exist with no source in the beam.
+
+In the 25-epoch Vela batch the minimum adjusted $p$ was $0.055$ ---
+consistent with the expected minimum among 25 independent draws under the
+null --- and the 25 per-epoch best lags show no cross-epoch agreement.
+
+\section{Methodological findings}
+
+\begin{enumerate}
+\item \textbf{Fractional-phase folding is mandatory.} At 349.5\,$\mu$s
+sampling, PSR B0329+54's period is 2044.26 samples; integer-sample folding
+drifts 0.26 samples/rotation and reduced the folded-profile peak $z$ from 99.4
+(fractional) to 0.0009 (integer) --- a bright pulsar rendered invisible by a
+common implementation shortcut.
+\item \textbf{Multibeam ``off'' beams are not off-source for bright pulsars.}
+Vela is detected in every beam of the Parkes multibeam receiver via sidelobes
+(fold $z$ up to 158 in beams pointed away). Valid off-source controls require
+separate blank-sky pointings.
+\item \textbf{A canonical instrument signature.} In all four instrument-caused
+Level-1 events: uniform Level-1 firing across every negative control, and
+split-half incompatibility. A credible sky-borne candidate must exhibit the
+inverse (target $\gg$ controls; split-half compatible), then survive the
+held-out epoch and an independent observatory.
+\item \textbf{Amendment discipline is practical.} One preprocessing amendment
+sufficed for the campaign; registering it with a pre-verified A/B on the
+identified artifact, applied identically to targets and controls, preserved
+the audit trail without freezing the pipeline into known errors.
+\end{enumerate}
+
+\section{Scope of the null and reproducibility}
+
+The null constrains repeated-frame modulation in four per-rotation feature
+channels at 32--4096-rotation periodicities, rotation periods 0.03--0.7\,s,
+1.0--3.4\,GHz, minute-scale scans, at the sensitivity established by
+injection-recovery --- for the specific epochs analyzed. It makes no claim
+beyond that scope.
+
+Every experiment is a frozen YAML manifest with SHA-256-pinned inputs;
+runs are deterministic given the seed; outputs include timestamped logs,
+per-observation checkpoints and machine-readable dispositions. The software
+(Python, ${\sim}$3{,}000 lines, 20 automated tests) and all manifests and
+reports are available in the project repository.
+
+\section*{Acknowledgments}
+This work used public data from the Breakthrough Listen Open Data Archive
+(GBT and Parkes/Murriyang observations). Breakthrough Listen is managed by the
+Breakthrough Initiatives, sponsored by the Breakthrough Prize Foundation.
+
+\end{document}

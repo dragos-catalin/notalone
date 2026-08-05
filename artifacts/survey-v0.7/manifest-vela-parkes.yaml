@@ -1,0 +1,51 @@
+# Frozen v0.7 cross-observatory manifest — created 2026-08-05 BEFORE any
+# pulse-level scan of these files (only fold-lock verified: peak z 13.1).
+#
+# First INDEPENDENT-OBSERVATORY data in the project: Parkes 64 m (Murriyang),
+# Breakthrough Listen multibeam session PKS_0344 (2018-08-17/18), PSR
+# J0835-4510 (Vela), P ≈ 0.0893 s, DM = 67.97. Products: 0001.0001.fil,
+# 292.6 µs, 4 polarisations (full-Stokes proxy channels live for the first
+# time), 305 samples/rotation, ~670 rotations per 60 s scan.
+#
+# Two consecutive-night epochs act as recurrence context. Registered
+# preprocessing: whitening (Amendment 1) ON, period refinement ON.
+# Thresholds: PREREGISTRATION.md, unchanged.
+
+experiment_id: parkes-vela-cross-observatory-v0.7
+seed: 20260807
+surrogate_count: 2048
+
+observations:
+  - id: VELA-PKS-58347-B1
+    url: http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58347_78145_445294_J0835-4510_B1_0001.0001.fil
+    sha256: a13e6dfc1503b1e4423eb02e81703a99eca645b2d8eba8604e46982b89fc0a65
+    path: ../../data/guppi_58347_78145_445294_J0835-4510_B1_0001.0001.fil
+    format: filterbank
+    period_s: 0.0893
+    dm_pc_cm3: 67.97
+    refine_period_fraction: 0.002
+    whiten_frequency: true
+    on_window_fraction: 0.10
+    rfi_z_threshold: 6.0
+    time_rfi_z_threshold: 10.0
+    offpulse_phase_offsets: [0.25, 0.50, 0.75]
+    wrong_period_fractions: [-0.02, 0.02]
+    wrong_dm_fractions: [-0.25, 0.25]
+    control_block_size: 32
+
+  - id: VELA-PKS-58348-B3
+    url: http://blpd11.ssl.berkeley.edu/collate_mb/PKS_0344_2018-08-17T21:00/blc31/guppi_58348_17871_456195_J0835-4510_B3_0001.0001.fil
+    sha256: 2c3aea948b9fb85c5c1f7e3379da9dfa47f87a98800b54c6a91ad9bb294a80bf
+    path: ../../data/guppi_58348_17871_456195_J0835-4510_B3_0001.0001.fil
+    format: filterbank
+    period_s: 0.0893
+    dm_pc_cm3: 67.97
+    refine_period_fraction: 0.002
+    whiten_frequency: true
+    on_window_fraction: 0.10
+    rfi_z_threshold: 6.0
+    time_rfi_z_threshold: 10.0
+    offpulse_phase_offsets: [0.25, 0.50, 0.75]
+    wrong_period_fractions: [-0.02, 0.02]
+    wrong_dm_fractions: [-0.25, 0.25]
+    control_block_size: 32

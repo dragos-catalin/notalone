@@ -1,0 +1,1654 @@
+{
+  "key": {
+    "input_sha256": "5ebe77ba11df6475f3097db1aee171bdb268b6d77d9d6be1c35b8320663ce4c8",
+    "surrogate_count": 2048,
+    "case_seed": 20320810,
+    "entry": {
+      "control_block_size": 32,
+      "dm_pc_cm3": 67.97,
+      "format": "filterbank",
+      "id": "VELA-58347-B7-78842",
+      "offpulse_phase_offsets": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "on_window_fraction": 0.1,
+      "period_s": 0.0893,
+      "refine_period_fraction": 0.002,
+      "rfi_z_threshold": 6.0,
+      "sha256": "5ebe77ba11df6475f3097db1aee171bdb268b6d77d9d6be1c35b8320663ce4c8",
+      "time_rfi_z_threshold": 10.0,
+      "whiten_frequency": true,
+      "wrong_dm_fractions": [
+        -0.25,
+        0.25
+      ],
+      "wrong_period_fractions": [
+        -0.02,
+        0.02
+      ]
+    }
+  },
+  "result": {
+    "observation_id": "VELA-58347-B7-78842",
+    "source_id": "J0835-4510_B7:target",
+    "input_path": "E:\\gh\\notalone\\data\\guppi_58347_78842_445585_J0835-4510_B7_0001.0001.fil",
+    "input_sha256": "5ebe77ba11df6475f3097db1aee171bdb268b6d77d9d6be1c35b8320663ce4c8",
+    "input_format": "filterbank",
+    "target_pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\target.npz",
+    "target_report": {
+      "source_id": "J0835-4510_B7:target",
+      "n_pulses": 669,
+      "null_fraction": 0.523168908819133,
+      "transition_matrix": [
+        [
+          0.5255681818181818,
+          0.4744318181818182
+        ],
+        [
+          0.51875,
+          0.48125
+        ]
+      ],
+      "strongest_lag": 158,
+      "strongest_lag_score": 0.13845360068447501,
+      "surrogate_p_value": 0.1273792093704246,
+      "compression_gain_bits": 16.0,
+      "prime_gap_enrichment": 0.9063992359121298,
+      "candidate_frame_lengths": [
+        158,
+        140,
+        55,
+        107,
+        120,
+        171,
+        202,
+        216
+      ],
+      "verdict": "consistent_with_fitted_natural_model",
+      "notes": [],
+      "best_channel": "polarization",
+      "adjusted_p_value": 0.5095168374816984,
+      "cross_channel_support": 1,
+      "channel_metrics": {
+        "amplitude": {
+          "strongest_lag": 168,
+          "strongest_lag_score": 0.10501642483058961,
+          "candidate_frame_lengths": [
+            168,
+            218,
+            209,
+            195,
+            110
+          ],
+          "observed_compression_bits": 1184,
+          "compression_ratio": 0.22122571001494767,
+          "transition_matrix": [
+            [
+              0.5255681818181818,
+              0.4744318181818182
+            ],
+            [
+              0.51875,
+              0.48125
+            ]
+          ],
+          "one_fraction": 0.476831091180867,
+          "surrogate_p_value": 1.0,
+          "compression_gain_bits": 0.0
+        },
+        "polarization": {
+          "strongest_lag": 158,
+          "strongest_lag_score": 0.13845360068447501,
+          "candidate_frame_lengths": [
+            158,
+            140,
+            55,
+            107,
+            120,
+            171,
+            202,
+            216
+          ],
+          "observed_compression_bits": 1168,
+          "compression_ratio": 0.21823617339312407,
+          "transition_matrix": [
+            [
+              0.504424778761062,
+              0.49557522123893805
+            ],
+            [
+              0.5075075075075075,
+              0.4924924924924925
+            ]
+          ],
+          "one_fraction": 0.4947683109118087,
+          "surrogate_p_value": 0.1273792093704246,
+          "compression_gain_bits": 16.0
+        },
+        "timing": {
+          "strongest_lag": 213,
+          "strongest_lag_score": 0.11944612413777493,
+          "candidate_frame_lengths": [
+            213,
+            124,
+            155,
+            169,
+            70
+          ],
+          "observed_compression_bits": 1160,
+          "compression_ratio": 0.21674140508221226,
+          "transition_matrix": [
+            [
+              0.5382436260623229,
+              0.46175637393767704
+            ],
+            [
+              0.5141065830721003,
+              0.48589341692789967
+            ]
+          ],
+          "one_fraction": 0.47384155455904337,
+          "surrogate_p_value": 1.0,
+          "compression_gain_bits": 0.0
+        },
+        "frequency": {
+          "strongest_lag": 167,
+          "strongest_lag_score": 0.12321367522344373,
+          "candidate_frame_lengths": [
+            167,
+            205,
+            42
+          ],
+          "observed_compression_bits": 1160,
+          "compression_ratio": 0.21674140508221226,
+          "transition_matrix": [
+            [
+              0.5380281690140845,
+              0.4619718309859155
+            ],
+            [
+              0.5173501577287066,
+              0.48264984227129337
+            ]
+          ],
+          "one_fraction": 0.47234678624813153,
+          "surrogate_p_value": 1.0,
+          "compression_gain_bits": 0.0
+        }
+      }
+    },
+    "controls": [
+      {
+        "control_id": "block-permutation",
+        "control_type": "block_permutation",
+        "parameters": {
+          "block_size": 32
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-block-permutation.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:target:block-permutation",
+          "n_pulses": 669,
+          "null_fraction": 0.523168908819133,
+          "transition_matrix": [
+            [
+              0.5242165242165242,
+              0.4757834757834758
+            ],
+            [
+              0.5202492211838006,
+              0.4797507788161994
+            ]
+          ],
+          "strongest_lag": 214,
+          "strongest_lag_score": 0.13382212453164746,
+          "surrogate_p_value": 0.18399219131283553,
+          "compression_gain_bits": 0.0,
+          "prime_gap_enrichment": 1.0229226361031518,
+          "candidate_frame_lengths": [
+            214,
+            145,
+            188,
+            114
+          ],
+          "verdict": "consistent_with_fitted_natural_model",
+          "notes": [],
+          "best_channel": "polarization",
+          "adjusted_p_value": 0.7359687652513421,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 48,
+              "strongest_lag_score": 0.08761896108222947,
+              "candidate_frame_lengths": [
+                48,
+                56,
+                70,
+                148,
+                174,
+                115,
+                186,
+                209
+              ],
+              "observed_compression_bits": 1160,
+              "compression_ratio": 0.21674140508221226,
+              "transition_matrix": [
+                [
+                  0.5242165242165242,
+                  0.4757834757834758
+                ],
+                [
+                  0.5202492211838006,
+                  0.4797507788161994
+                ]
+              ],
+              "one_fraction": 0.476831091180867,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "polarization": {
+              "strongest_lag": 214,
+              "strongest_lag_score": 0.13382212453164746,
+              "candidate_frame_lengths": [
+                214,
+                145,
+                188,
+                114
+              ],
+              "observed_compression_bits": 1184,
+              "compression_ratio": 0.22122571001494767,
+              "transition_matrix": [
+                [
+                  0.5058823529411764,
+                  0.49411764705882355
+                ],
+                [
+                  0.5030120481927711,
+                  0.49698795180722893
+                ]
+              ],
+              "one_fraction": 0.4947683109118087,
+              "surrogate_p_value": 0.18399219131283553,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 33,
+              "strongest_lag_score": 0.09206407153794964,
+              "candidate_frame_lengths": [
+                33,
+                176,
+                115,
+                82
+              ],
+              "observed_compression_bits": 1208,
+              "compression_ratio": 0.2257100149476831,
+              "transition_matrix": [
+                [
+                  0.5338983050847458,
+                  0.4661016949152542
+                ],
+                [
+                  0.5188679245283019,
+                  0.4811320754716981
+                ]
+              ],
+              "one_fraction": 0.47384155455904337,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 181,
+              "strongest_lag_score": 0.11569183331795117,
+              "candidate_frame_lengths": [
+                181,
+                211,
+                151,
+                65,
+                198,
+                115,
+                131
+              ],
+              "observed_compression_bits": 1208,
+              "compression_ratio": 0.2257100149476831,
+              "transition_matrix": [
+                [
+                  0.5380281690140845,
+                  0.4619718309859155
+                ],
+                [
+                  0.5141955835962145,
+                  0.48580441640378547
+                ]
+              ],
+              "one_fraction": 0.47234678624813153,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "offpulse-+0.250",
+        "control_type": "offpulse",
+        "parameters": {
+          "phase_offset_fraction": 0.25
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-offpulse-+0.250.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:offpulse-+0.250",
+          "n_pulses": 669,
+          "null_fraction": 0.452914798206278,
+          "transition_matrix": [
+            [
+              0.4524590163934426,
+              0.5475409836065573
+            ],
+            [
+              0.45231607629427795,
+              0.547683923705722
+            ]
+          ],
+          "strongest_lag": 210,
+          "strongest_lag_score": 0.15269410258287167,
+          "surrogate_p_value": 0.04343582235236701,
+          "compression_gain_bits": -16.0,
+          "prime_gap_enrichment": 0.7706953642384106,
+          "candidate_frame_lengths": [
+            210,
+            126,
+            136,
+            178,
+            63,
+            96
+          ],
+          "verdict": "interesting_but_inconclusive",
+          "notes": [
+            "A compatible frame lag is supported by 2 independent feature channels."
+          ],
+          "best_channel": "amplitude",
+          "adjusted_p_value": 0.17374328940946804,
+          "cross_channel_support": 2,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 210,
+              "strongest_lag_score": 0.15269410258287167,
+              "candidate_frame_lengths": [
+                210,
+                126,
+                136,
+                178,
+                63,
+                96
+              ],
+              "observed_compression_bits": 1192,
+              "compression_ratio": 0.2227204783258595,
+              "transition_matrix": [
+                [
+                  0.4524590163934426,
+                  0.5475409836065573
+                ],
+                [
+                  0.45231607629427795,
+                  0.547683923705722
+                ]
+              ],
+              "one_fraction": 0.547085201793722,
+              "surrogate_p_value": 0.04343582235236701,
+              "compression_gain_bits": -16.0
+            },
+            "polarization": {
+              "strongest_lag": 63,
+              "strongest_lag_score": 0.09706213025956763,
+              "candidate_frame_lengths": [
+                63,
+                152,
+                127,
+                208,
+                170,
+                112,
+                182
+              ],
+              "observed_compression_bits": 1168,
+              "compression_ratio": 0.21823617339312407,
+              "transition_matrix": [
+                [
+                  0.5079872204472844,
+                  0.49201277955271566
+                ],
+                [
+                  0.42896935933147634,
+                  0.5710306406685237
+                ]
+              ],
+              "one_fraction": 0.5336322869955157,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 89,
+              "strongest_lag_score": 0.13444921274281066,
+              "candidate_frame_lengths": [
+                89,
+                99,
+                178,
+                213,
+                188,
+                72,
+                139,
+                204
+              ],
+              "observed_compression_bits": 1192,
+              "compression_ratio": 0.2227204783258595,
+              "transition_matrix": [
+                [
+                  0.49258160237388726,
+                  0.5074183976261127
+                ],
+                [
+                  0.5104477611940299,
+                  0.48955223880597015
+                ]
+              ],
+              "one_fraction": 0.4992526158445441,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 214,
+              "strongest_lag_score": 0.12256966608347783,
+              "candidate_frame_lengths": [
+                214,
+                191,
+                108,
+                146,
+                68,
+                163,
+                155
+              ],
+              "observed_compression_bits": 1160,
+              "compression_ratio": 0.21674140508221226,
+              "transition_matrix": [
+                [
+                  0.546916890080429,
+                  0.45308310991957107
+                ],
+                [
+                  0.5652173913043478,
+                  0.43478260869565216
+                ]
+              ],
+              "one_fraction": 0.445440956651719,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "offpulse-+0.500",
+        "control_type": "offpulse",
+        "parameters": {
+          "phase_offset_fraction": 0.5
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-offpulse-+0.500.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:offpulse-+0.500",
+          "n_pulses": 669,
+          "null_fraction": 0.5351270553064275,
+          "transition_matrix": [
+            [
+              0.5264623955431755,
+              0.4735376044568245
+            ],
+            [
+              0.5431309904153354,
+              0.45686900958466453
+            ]
+          ],
+          "strongest_lag": 191,
+          "strongest_lag_score": 0.14527458255031916,
+          "surrogate_p_value": 0.0746705710102489,
+          "compression_gain_bits": 0.0,
+          "prime_gap_enrichment": 0.6008403361344539,
+          "candidate_frame_lengths": [
+            191,
+            104,
+            120,
+            140,
+            182,
+            161
+          ],
+          "verdict": "consistent_with_fitted_natural_model",
+          "notes": [],
+          "best_channel": "polarization",
+          "adjusted_p_value": 0.2986822840409956,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 200,
+              "strongest_lag_score": 0.10219841531354162,
+              "candidate_frame_lengths": [
+                200,
+                66,
+                108,
+                119,
+                144,
+                219,
+                189
+              ],
+              "observed_compression_bits": 1152,
+              "compression_ratio": 0.21524663677130046,
+              "transition_matrix": [
+                [
+                  0.5264623955431755,
+                  0.4735376044568245
+                ],
+                [
+                  0.5431309904153354,
+                  0.45686900958466453
+                ]
+              ],
+              "one_fraction": 0.4648729446935725,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "polarization": {
+              "strongest_lag": 191,
+              "strongest_lag_score": 0.14527458255031916,
+              "candidate_frame_lengths": [
+                191,
+                104,
+                120,
+                140,
+                182,
+                161
+              ],
+              "observed_compression_bits": 1168,
+              "compression_ratio": 0.21823617339312407,
+              "transition_matrix": [
+                [
+                  0.5652173913043478,
+                  0.43478260869565216
+                ],
+                [
+                  0.604982206405694,
+                  0.39501779359430605
+                ]
+              ],
+              "one_fraction": 0.41853512705530643,
+              "surrogate_p_value": 0.0746705710102489,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 123,
+              "strongest_lag_score": 0.09069062197163674,
+              "candidate_frame_lengths": [
+                123,
+                213,
+                68,
+                173,
+                45,
+                193,
+                162
+              ],
+              "observed_compression_bits": 1168,
+              "compression_ratio": 0.21823617339312407,
+              "transition_matrix": [
+                [
+                  0.4506578947368421,
+                  0.5493421052631579
+                ],
+                [
+                  0.453804347826087,
+                  0.5461956521739131
+                ]
+              ],
+              "one_fraction": 0.5485799701046338,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 179,
+              "strongest_lag_score": 0.11015479324964403,
+              "candidate_frame_lengths": [
+                179,
+                201,
+                140,
+                191,
+                163,
+                71,
+                48,
+                214
+              ],
+              "observed_compression_bits": 1224,
+              "compression_ratio": 0.22869955156950672,
+              "transition_matrix": [
+                [
+                  0.49411764705882355,
+                  0.5058823529411764
+                ],
+                [
+                  0.5180722891566265,
+                  0.4819277108433735
+                ]
+              ],
+              "one_fraction": 0.4947683109118087,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "offpulse-+0.750",
+        "control_type": "offpulse",
+        "parameters": {
+          "phase_offset_fraction": 0.75
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-offpulse-+0.750.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:offpulse-+0.750",
+          "n_pulses": 669,
+          "null_fraction": 0.4962630792227205,
+          "transition_matrix": [
+            [
+              0.5029940119760479,
+              0.49700598802395207
+            ],
+            [
+              0.4911242603550296,
+              0.5088757396449705
+            ]
+          ],
+          "strongest_lag": 194,
+          "strongest_lag_score": 0.15400042148917398,
+          "surrogate_p_value": 0.03806734992679356,
+          "compression_gain_bits": -8.0,
+          "prime_gap_enrichment": 0.7348942598187311,
+          "candidate_frame_lengths": [
+            194,
+            107,
+            172
+          ],
+          "verdict": "consistent_with_fitted_natural_model",
+          "notes": [],
+          "best_channel": "amplitude",
+          "adjusted_p_value": 0.15226939970717424,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 194,
+              "strongest_lag_score": 0.15400042148917398,
+              "candidate_frame_lengths": [
+                194,
+                107,
+                172
+              ],
+              "observed_compression_bits": 1192,
+              "compression_ratio": 0.2227204783258595,
+              "transition_matrix": [
+                [
+                  0.5029940119760479,
+                  0.49700598802395207
+                ],
+                [
+                  0.4911242603550296,
+                  0.5088757396449705
+                ]
+              ],
+              "one_fraction": 0.5037369207772795,
+              "surrogate_p_value": 0.03806734992679356,
+              "compression_gain_bits": -8.0
+            },
+            "polarization": {
+              "strongest_lag": 142,
+              "strongest_lag_score": 0.11179821690427022,
+              "candidate_frame_lengths": [
+                142,
+                100,
+                156,
+                172,
+                74,
+                191
+              ],
+              "observed_compression_bits": 1200,
+              "compression_ratio": 0.2242152466367713,
+              "transition_matrix": [
+                [
+                  0.55,
+                  0.45
+                ],
+                [
+                  0.4578313253012048,
+                  0.5421686746987951
+                ]
+              ],
+              "one_fraction": 0.4947683109118087,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 133,
+              "strongest_lag_score": 0.0916180290840419,
+              "candidate_frame_lengths": [
+                133,
+                162
+              ],
+              "observed_compression_bits": 1232,
+              "compression_ratio": 0.23019431988041852,
+              "transition_matrix": [
+                [
+                  0.5203488372093024,
+                  0.4796511627906977
+                ],
+                [
+                  0.5060975609756098,
+                  0.49390243902439024
+                ]
+              ],
+              "one_fraction": 0.4872944693572496,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 173,
+              "strongest_lag_score": 0.10912863038923655,
+              "candidate_frame_lengths": [
+                173,
+                214,
+                61,
+                93,
+                142
+              ],
+              "observed_compression_bits": 1184,
+              "compression_ratio": 0.22122571001494767,
+              "transition_matrix": [
+                [
+                  0.5302197802197802,
+                  0.4697802197802198
+                ],
+                [
+                  0.5551948051948052,
+                  0.4448051948051948
+                ]
+              ],
+              "one_fraction": 0.4588938714499253,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "wrong-period--0.02000",
+        "control_type": "wrong_period",
+        "parameters": {
+          "period_s": 0.08761345251705716
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-wrong-period--0.02000.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:wrong-period--0.02000",
+          "n_pulses": 683,
+          "null_fraction": 0.4978038067349927,
+          "transition_matrix": [
+            [
+              0.501466275659824,
+              0.49853372434017595
+            ],
+            [
+              0.4956521739130435,
+              0.5043478260869565
+            ]
+          ],
+          "strongest_lag": 114,
+          "strongest_lag_score": 0.15617460642303627,
+          "surrogate_p_value": 0.03074670571010249,
+          "compression_gain_bits": -24.0,
+          "prime_gap_enrichment": 0.8023598820058997,
+          "candidate_frame_lengths": [
+            114,
+            99,
+            65,
+            150,
+            200,
+            215,
+            127
+          ],
+          "verdict": "consistent_with_fitted_natural_model",
+          "notes": [],
+          "best_channel": "amplitude",
+          "adjusted_p_value": 0.12298682284040996,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 114,
+              "strongest_lag_score": 0.15617460642303627,
+              "candidate_frame_lengths": [
+                114,
+                99,
+                65,
+                150,
+                200,
+                215,
+                127
+              ],
+              "observed_compression_bits": 1224,
+              "compression_ratio": 0.2240117130307467,
+              "transition_matrix": [
+                [
+                  0.501466275659824,
+                  0.49853372434017595
+                ],
+                [
+                  0.4956521739130435,
+                  0.5043478260869565
+                ]
+              ],
+              "one_fraction": 0.5021961932650073,
+              "surrogate_p_value": 0.03074670571010249,
+              "compression_gain_bits": -24.0
+            },
+            "polarization": {
+              "strongest_lag": 216,
+              "strongest_lag_score": 0.10324474839225355,
+              "candidate_frame_lengths": [
+                216,
+                163,
+                147,
+                225,
+                95,
+                193,
+                43,
+                107
+              ],
+              "observed_compression_bits": 1224,
+              "compression_ratio": 0.2240117130307467,
+              "transition_matrix": [
+                [
+                  0.4906832298136646,
+                  0.5093167701863354
+                ],
+                [
+                  0.4532967032967033,
+                  0.5467032967032966
+                ]
+              ],
+              "one_fraction": 0.5300146412884333,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 200,
+              "strongest_lag_score": 0.12629062840987632,
+              "candidate_frame_lengths": [
+                200,
+                220,
+                50,
+                142,
+                105,
+                80
+              ],
+              "observed_compression_bits": 1168,
+              "compression_ratio": 0.21376281112737922,
+              "transition_matrix": [
+                [
+                  0.5439560439560439,
+                  0.45604395604395603
+                ],
+                [
+                  0.5124223602484472,
+                  0.48757763975155277
+                ]
+              ],
+              "one_fraction": 0.4699853587115666,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 60,
+              "strongest_lag_score": 0.10113065622308107,
+              "candidate_frame_lengths": [
+                60,
+                69,
+                98,
+                125,
+                189,
+                113,
+                211,
+                43
+              ],
+              "observed_compression_bits": 1248,
+              "compression_ratio": 0.22840409956076135,
+              "transition_matrix": [
+                [
+                  0.5,
+                  0.5
+                ],
+                [
+                  0.5029239766081871,
+                  0.49707602339181284
+                ]
+              ],
+              "one_fraction": 0.4992679355783309,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "wrong-period-+0.02000",
+        "control_type": "wrong_period",
+        "parameters": {
+          "period_s": 0.09118951180346765
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-wrong-period-+0.02000.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:wrong-period-+0.02000",
+          "n_pulses": 656,
+          "null_fraction": 0.4969512195121951,
+          "transition_matrix": [
+            [
+              0.4969512195121951,
+              0.5030487804878049
+            ],
+            [
+              0.4984894259818731,
+              0.5015105740181269
+            ]
+          ],
+          "strongest_lag": 151,
+          "strongest_lag_score": 0.16705300791612437,
+          "surrogate_p_value": 0.015617374328940947,
+          "compression_gain_bits": -8.0,
+          "prime_gap_enrichment": 0.8369230769230769,
+          "candidate_frame_lengths": [
+            151,
+            43,
+            135,
+            184,
+            194,
+            165,
+            65,
+            100
+          ],
+          "verdict": "interesting_but_inconclusive",
+          "notes": [],
+          "best_channel": "timing",
+          "adjusted_p_value": 0.06246949731576379,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 38,
+              "strongest_lag_score": 0.11982220200696582,
+              "candidate_frame_lengths": [
+                38,
+                61,
+                49,
+                89,
+                98,
+                158,
+                170,
+                198
+              ],
+              "observed_compression_bits": 1144,
+              "compression_ratio": 0.21798780487804878,
+              "transition_matrix": [
+                [
+                  0.4969512195121951,
+                  0.5030487804878049
+                ],
+                [
+                  0.4984894259818731,
+                  0.5015105740181269
+                ]
+              ],
+              "one_fraction": 0.5030487804878049,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "polarization": {
+              "strongest_lag": 79,
+              "strongest_lag_score": 0.11269369209450487,
+              "candidate_frame_lengths": [
+                79,
+                100,
+                157
+              ],
+              "observed_compression_bits": 1208,
+              "compression_ratio": 0.2301829268292683,
+              "transition_matrix": [
+                [
+                  0.5030487804878049,
+                  0.4969512195121951
+                ],
+                [
+                  0.4954682779456193,
+                  0.5045317220543807
+                ]
+              ],
+              "one_fraction": 0.5015243902439024,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 151,
+              "strongest_lag_score": 0.16705300791612437,
+              "candidate_frame_lengths": [
+                151,
+                43,
+                135,
+                184,
+                194,
+                165,
+                65,
+                100
+              ],
+              "observed_compression_bits": 1168,
+              "compression_ratio": 0.2225609756097561,
+              "transition_matrix": [
+                [
+                  0.4389438943894389,
+                  0.5610561056105611
+                ],
+                [
+                  0.47752808988764045,
+                  0.5224719101123596
+                ]
+              ],
+              "one_fraction": 0.5396341463414634,
+              "surrogate_p_value": 0.015617374328940947,
+              "compression_gain_bits": -8.0
+            },
+            "frequency": {
+              "strongest_lag": 140,
+              "strongest_lag_score": 0.12591603056477998,
+              "candidate_frame_lengths": [
+                140,
+                53,
+                198
+              ],
+              "observed_compression_bits": 1152,
+              "compression_ratio": 0.21951219512195122,
+              "transition_matrix": [
+                [
+                  0.532394366197183,
+                  0.4676056338028169
+                ],
+                [
+                  0.5460526315789473,
+                  0.45394736842105265
+                ]
+              ],
+              "one_fraction": 0.46189024390243905,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "wrong-dm--0.250",
+        "control_type": "wrong_dm",
+        "parameters": {
+          "dm_pc_cm3": 50.9775
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-wrong-dm--0.250.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:wrong-dm--0.250",
+          "n_pulses": 669,
+          "null_fraction": 0.49327354260089684,
+          "transition_matrix": [
+            [
+              0.48942598187311176,
+              0.5105740181268882
+            ],
+            [
+              0.49853372434017595,
+              0.501466275659824
+            ]
+          ],
+          "strongest_lag": 134,
+          "strongest_lag_score": 0.1660632626822354,
+          "surrogate_p_value": 0.016105417276720352,
+          "compression_gain_bits": -8.0,
+          "prime_gap_enrichment": 0.7393617021276596,
+          "candidate_frame_lengths": [
+            134,
+            205,
+            219,
+            59,
+            184,
+            106,
+            165,
+            145
+          ],
+          "verdict": "interesting_but_inconclusive",
+          "notes": [],
+          "best_channel": "amplitude",
+          "adjusted_p_value": 0.06442166910688141,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 134,
+              "strongest_lag_score": 0.1660632626822354,
+              "candidate_frame_lengths": [
+                134,
+                205,
+                219,
+                59,
+                184,
+                106,
+                165,
+                145
+              ],
+              "observed_compression_bits": 1192,
+              "compression_ratio": 0.2227204783258595,
+              "transition_matrix": [
+                [
+                  0.48942598187311176,
+                  0.5105740181268882
+                ],
+                [
+                  0.49853372434017595,
+                  0.501466275659824
+                ]
+              ],
+              "one_fraction": 0.5067264573991032,
+              "surrogate_p_value": 0.016105417276720352,
+              "compression_gain_bits": -8.0
+            },
+            "polarization": {
+              "strongest_lag": 142,
+              "strongest_lag_score": 0.1058131739177695,
+              "candidate_frame_lengths": [
+                142,
+                208,
+                175,
+                152,
+                125,
+                217,
+                49,
+                93
+              ],
+              "observed_compression_bits": 1192,
+              "compression_ratio": 0.2227204783258595,
+              "transition_matrix": [
+                [
+                  0.5187319884726225,
+                  0.4812680115273775
+                ],
+                [
+                  0.5138461538461538,
+                  0.48615384615384616
+                ]
+              ],
+              "one_fraction": 0.4828101644245142,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 161,
+              "strongest_lag_score": 0.11398738474047575,
+              "candidate_frame_lengths": [
+                161,
+                171,
+                116,
+                71,
+                91,
+                179
+              ],
+              "observed_compression_bits": 1128,
+              "compression_ratio": 0.21076233183856502,
+              "transition_matrix": [
+                [
+                  0.45454545454545453,
+                  0.5454545454545454
+                ],
+                [
+                  0.46153846153846156,
+                  0.5384615384615384
+                ]
+              ],
+              "one_fraction": 0.5411061285500748,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "frequency": {
+              "strongest_lag": 116,
+              "strongest_lag_score": 0.09640366621359318,
+              "candidate_frame_lengths": [
+                116,
+                176,
+                72,
+                133,
+                60
+              ],
+              "observed_compression_bits": 1208,
+              "compression_ratio": 0.2257100149476831,
+              "transition_matrix": [
+                [
+                  0.5451977401129944,
+                  0.4548022598870056
+                ],
+                [
+                  0.5062893081761006,
+                  0.4937106918238994
+                ]
+              ],
+              "one_fraction": 0.47384155455904337,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      },
+      {
+        "control_id": "wrong-dm-+0.250",
+        "control_type": "wrong_dm",
+        "parameters": {
+          "dm_pc_cm3": 84.9625
+        },
+        "pulse_train_path": "E:\\gh\\notalone\\artifacts\\survey-v1.0\\run\\VELA-58347-B7-78842\\control-wrong-dm-+0.250.npz",
+        "report": {
+          "source_id": "J0835-4510_B7:wrong-dm-+0.250",
+          "n_pulses": 669,
+          "null_fraction": 0.5067264573991032,
+          "transition_matrix": [
+            [
+              0.5029411764705882,
+              0.4970588235294118
+            ],
+            [
+              0.5090361445783133,
+              0.49096385542168675
+            ]
+          ],
+          "strongest_lag": 59,
+          "strongest_lag_score": 0.12763185313163541,
+          "surrogate_p_value": 0.2659834065397755,
+          "compression_gain_bits": 8.0,
+          "prime_gap_enrichment": 0.863905325443787,
+          "candidate_frame_lengths": [
+            59,
+            190,
+            136,
+            162
+          ],
+          "verdict": "consistent_with_fitted_natural_model",
+          "notes": [],
+          "best_channel": "timing",
+          "adjusted_p_value": 1.0,
+          "cross_channel_support": 1,
+          "channel_metrics": {
+            "amplitude": {
+              "strongest_lag": 149,
+              "strongest_lag_score": 0.12348722074385787,
+              "candidate_frame_lengths": [
+                149,
+                56,
+                195,
+                183,
+                211,
+                137,
+                164,
+                125
+              ],
+              "observed_compression_bits": 1160,
+              "compression_ratio": 0.21674140508221226,
+              "transition_matrix": [
+                [
+                  0.5029411764705882,
+                  0.4970588235294118
+                ],
+                [
+                  0.5090361445783133,
+                  0.49096385542168675
+                ]
+              ],
+              "one_fraction": 0.49327354260089684,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "polarization": {
+              "strongest_lag": 168,
+              "strongest_lag_score": 0.11368553406067966,
+              "candidate_frame_lengths": [
+                168,
+                140,
+                49,
+                126,
+                158
+              ],
+              "observed_compression_bits": 1216,
+              "compression_ratio": 0.22720478325859492,
+              "transition_matrix": [
+                [
+                  0.4759036144578313,
+                  0.5240963855421686
+                ],
+                [
+                  0.5147058823529411,
+                  0.4852941176470588
+                ]
+              ],
+              "one_fraction": 0.5052316890881914,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            },
+            "timing": {
+              "strongest_lag": 59,
+              "strongest_lag_score": 0.12763185313163541,
+              "candidate_frame_lengths": [
+                59,
+                190,
+                136,
+                162
+              ],
+              "observed_compression_bits": 1176,
+              "compression_ratio": 0.21973094170403587,
+              "transition_matrix": [
+                [
+                  0.4789156626506024,
+                  0.5210843373493976
+                ],
+                [
+                  0.5088235294117647,
+                  0.49117647058823527
+                ]
+              ],
+              "one_fraction": 0.5067264573991032,
+              "surrogate_p_value": 0.2659834065397755,
+              "compression_gain_bits": 8.0
+            },
+            "frequency": {
+              "strongest_lag": 141,
+              "strongest_lag_score": 0.1063191915750904,
+              "candidate_frame_lengths": [
+                141,
+                104,
+                170,
+                56
+              ],
+              "observed_compression_bits": 1192,
+              "compression_ratio": 0.2227204783258595,
+              "transition_matrix": [
+                [
+                  0.449685534591195,
+                  0.550314465408805
+                ],
+                [
+                  0.4943502824858757,
+                  0.5056497175141242
+                ]
+              ],
+              "one_fraction": 0.5276532137518685,
+              "surrogate_p_value": 1.0,
+              "compression_gain_bits": 0.0
+            }
+          }
+        }
+      }
+    ],
+    "split_half": {
+      "available": true,
+      "compatible_lag": false,
+      "first": {
+        "source_id": "J0835-4510_B7:target:first-half",
+        "n_pulses": 334,
+        "null_fraction": 0.49101796407185627,
+        "transition_matrix": [
+          [
+            0.5120481927710844,
+            0.4879518072289157
+          ],
+          [
+            0.4678362573099415,
+            0.5321637426900585
+          ]
+        ],
+        "strongest_lag": 101,
+        "strongest_lag_score": 0.23605150214592274,
+        "surrogate_p_value": 0.00975609756097561,
+        "compression_gain_bits": -8.0,
+        "prime_gap_enrichment": 0.9177914110429448,
+        "candidate_frame_lengths": [
+          101,
+          67,
+          52
+        ],
+        "verdict": "interesting_but_inconclusive",
+        "notes": [
+          "polarization structure exceeds the mixed Markov/run-length/block-bootstrap surrogate ensemble."
+        ],
+        "best_channel": "polarization",
+        "adjusted_p_value": 0.03902439024390244,
+        "cross_channel_support": 1,
+        "channel_metrics": {
+          "amplitude": {
+            "strongest_lag": 47,
+            "strongest_lag_score": 0.18329825683991618,
+            "candidate_frame_lengths": [
+              47,
+              76,
+              88,
+              98
+            ],
+            "observed_compression_bits": 688,
+            "compression_ratio": 0.25748502994011974,
+            "transition_matrix": [
+              [
+                0.5120481927710844,
+                0.4879518072289157
+              ],
+              [
+                0.4678362573099415,
+                0.5321637426900585
+              ]
+            ],
+            "one_fraction": 0.5089820359281437,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          },
+          "polarization": {
+            "strongest_lag": 101,
+            "strongest_lag_score": 0.23605150214592274,
+            "candidate_frame_lengths": [
+              101,
+              67,
+              52
+            ],
+            "observed_compression_bits": 704,
+            "compression_ratio": 0.2634730538922156,
+            "transition_matrix": [
+              [
+                0.42857142857142855,
+                0.5714285714285714
+              ],
+              [
+                0.5739644970414202,
+                0.4260355029585799
+              ]
+            ],
+            "one_fraction": 0.5,
+            "surrogate_p_value": 0.00975609756097561,
+            "compression_gain_bits": -8.0
+          },
+          "timing": {
+            "strongest_lag": 95,
+            "strongest_lag_score": 0.13412444134076099,
+            "candidate_frame_lengths": [
+              95,
+              50
+            ],
+            "observed_compression_bits": 704,
+            "compression_ratio": 0.2634730538922156,
+            "transition_matrix": [
+              [
+                0.4972067039106145,
+                0.5027932960893855
+              ],
+              [
+                0.569620253164557,
+                0.43037974683544306
+              ]
+            ],
+            "one_fraction": 0.47005988023952094,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          },
+          "frequency": {
+            "strongest_lag": 33,
+            "strongest_lag_score": 0.1245993065899592,
+            "candidate_frame_lengths": [
+              33,
+              82
+            ],
+            "observed_compression_bits": 704,
+            "compression_ratio": 0.2634730538922156,
+            "transition_matrix": [
+              [
+                0.634020618556701,
+                0.36597938144329895
+              ],
+              [
+                0.5034965034965035,
+                0.4965034965034965
+              ]
+            ],
+            "one_fraction": 0.4221556886227545,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          }
+        }
+      },
+      "second": {
+        "source_id": "J0835-4510_B7:target:second-half",
+        "n_pulses": 335,
+        "null_fraction": 0.5671641791044776,
+        "transition_matrix": [
+          [
+            0.5260416666666666,
+            0.4739583333333333
+          ],
+          [
+            0.6164383561643836,
+            0.3835616438356164
+          ]
+        ],
+        "strongest_lag": 72,
+        "strongest_lag_score": 0.2084838403041824,
+        "surrogate_p_value": 0.024390243902439025,
+        "compression_gain_bits": -16.0,
+        "prime_gap_enrichment": 0.6878306878306878,
+        "candidate_frame_lengths": [
+          72,
+          61,
+          109
+        ],
+        "verdict": "interesting_but_inconclusive",
+        "notes": [],
+        "best_channel": "polarization",
+        "adjusted_p_value": 0.0975609756097561,
+        "cross_channel_support": 1,
+        "channel_metrics": {
+          "amplitude": {
+            "strongest_lag": 52,
+            "strongest_lag_score": 0.13927456022779003,
+            "candidate_frame_lengths": [
+              52
+            ],
+            "observed_compression_bits": 672,
+            "compression_ratio": 0.2507462686567164,
+            "transition_matrix": [
+              [
+                0.5260416666666666,
+                0.4739583333333333
+              ],
+              [
+                0.6164383561643836,
+                0.3835616438356164
+              ]
+            ],
+            "one_fraction": 0.43283582089552236,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          },
+          "polarization": {
+            "strongest_lag": 72,
+            "strongest_lag_score": 0.2084838403041824,
+            "candidate_frame_lengths": [
+              72,
+              61,
+              109
+            ],
+            "observed_compression_bits": 720,
+            "compression_ratio": 0.26865671641791045,
+            "transition_matrix": [
+              [
+                0.5795454545454546,
+                0.42045454545454547
+              ],
+              [
+                0.46296296296296297,
+                0.5370370370370371
+              ]
+            ],
+            "one_fraction": 0.47761194029850745,
+            "surrogate_p_value": 0.024390243902439025,
+            "compression_gain_bits": -16.0
+          },
+          "timing": {
+            "strongest_lag": 78,
+            "strongest_lag_score": 0.10284062359764949,
+            "candidate_frame_lengths": [
+              78
+            ],
+            "observed_compression_bits": 720,
+            "compression_ratio": 0.26865671641791045,
+            "transition_matrix": [
+              [
+                0.5652173913043478,
+                0.43478260869565216
+              ],
+              [
+                0.525974025974026,
+                0.474025974025974
+              ]
+            ],
+            "one_fraction": 0.4537313432835821,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          },
+          "frequency": {
+            "strongest_lag": 100,
+            "strongest_lag_score": 0.1502296983087444,
+            "candidate_frame_lengths": [
+              100,
+              48
+            ],
+            "observed_compression_bits": 712,
+            "compression_ratio": 0.2656716417910448,
+            "transition_matrix": [
+              [
+                0.44654088050314467,
+                0.5534591194968553
+              ],
+              [
+                0.4860335195530726,
+                0.5139664804469274
+              ]
+            ],
+            "one_fraction": 0.5313432835820896,
+            "surrogate_p_value": 1.0,
+            "compression_gain_bits": 0.0
+          }
+        }
+      }
+    },
+    "batch_fdr_q_value": null,
+    "disposition": "pending_batch_correction",
+    "disposition_reasons": null
+  }
+}

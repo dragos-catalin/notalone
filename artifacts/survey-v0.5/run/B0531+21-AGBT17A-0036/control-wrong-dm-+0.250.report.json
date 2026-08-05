@@ -1,0 +1,135 @@
+{
+  "adjusted_p_value": 0.0019521717911176184,
+  "best_channel": "frequency",
+  "candidate_frame_lengths": [
+    34
+  ],
+  "channel_metrics": {
+    "amplitude": {
+      "candidate_frame_lengths": [
+        1781,
+        2448,
+        790,
+        1182,
+        2397,
+        2574,
+        2720,
+        2145
+      ],
+      "compression_gain_bits": 0.0,
+      "compression_ratio": 0.1711133626027243,
+      "observed_compression_bits": 12160,
+      "one_fraction": 0.4969041990318586,
+      "strongest_lag": 1781,
+      "strongest_lag_score": 0.0402160684451473,
+      "surrogate_p_value": 1.0,
+      "transition_matrix": [
+        [
+          0.5011185682326622,
+          0.4988814317673378
+        ],
+        [
+          0.5049818840579711,
+          0.495018115942029
+        ]
+      ]
+    },
+    "frequency": {
+      "candidate_frame_lengths": [
+        34
+      ],
+      "compression_gain_bits": 176.0,
+      "compression_ratio": 0.1598559045367556,
+      "observed_compression_bits": 11360,
+      "one_fraction": 0.5163796014859845,
+      "strongest_lag": 34,
+      "strongest_lag_score": 0.2023872736744921,
+      "surrogate_p_value": 0.0004880429477794046,
+      "transition_matrix": [
+        [
+          0.59818520241973,
+          0.4018147975802699
+        ],
+        [
+          0.3764167393199651,
+          0.6235832606800349
+        ]
+      ]
+    },
+    "polarization": {
+      "candidate_frame_lengths": [
+        32
+      ],
+      "compression_gain_bits": 0.0,
+      "compression_ratio": 0.0034898120004502983,
+      "observed_compression_bits": 248,
+      "one_fraction": 0.0,
+      "strongest_lag": 32,
+      "strongest_lag_score": 0.0,
+      "surrogate_p_value": 1.0,
+      "transition_matrix": [
+        [
+          0.99988743809095,
+          0.00011256190904997749
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    "timing": {
+      "candidate_frame_lengths": [
+        1947,
+        2864,
+        2388,
+        2837,
+        1389,
+        2827,
+        2374,
+        2544
+      ],
+      "compression_gain_bits": 0.0,
+      "compression_ratio": 0.1704379151187662,
+      "observed_compression_bits": 12112,
+      "one_fraction": 0.5218957559383092,
+      "strongest_lag": 1947,
+      "strongest_lag_score": 0.046056699399622,
+      "surrogate_p_value": 1.0,
+      "transition_matrix": [
+        [
+          0.4702282890091786,
+          0.5297717109908213
+        ],
+        [
+          0.48544317446624974,
+          0.5145568255337503
+        ]
+      ]
+    }
+  },
+  "compression_gain_bits": 176.0,
+  "cross_channel_support": 1,
+  "n_pulses": 8883,
+  "notes": [
+    "frequency structure exceeds the mixed Markov/run-length/block-bootstrap surrogate ensemble.",
+    "The frequency bitstream is substantially more compressible than surrogates."
+  ],
+  "null_fraction": 0.5030958009681414,
+  "prime_gap_enrichment": 0.8985750522232169,
+  "source_id": "B0531+21:wrong-dm-+0.250",
+  "strongest_lag": 34,
+  "strongest_lag_score": 0.2023872736744921,
+  "surrogate_p_value": 0.0004880429477794046,
+  "transition_matrix": [
+    [
+      0.5011185682326622,
+      0.4988814317673378
+    ],
+    [
+      0.5049818840579711,
+      0.495018115942029
+    ]
+  ],
+  "verdict": "candidate_structured_modulation"
+}

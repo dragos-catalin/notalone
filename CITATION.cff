@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "notalone: a preregistered, control-gated pipeline for protocol-like modulation searches in pulsar single-pulse data"
+authors:
+  - family-names: Vladulescu
+    given-names: Dragos Catalin
+version: 1.0.0
+date-released: 2026-08-05
+repository-code: "https://github.com/dragoscv/notalone"
+license: MIT
+keywords:
+  - SETI
+  - technosignatures
+  - pulsars
+  - single-pulse analysis
+  - preregistration
+  - Breakthrough Listen
+abstract: >
+  A hypothesis-neutral, falsifiable software experiment testing whether pulsar
+  single-pulse feature streams contain repeated, protocol-like modulation not
+  reproduced by fitted natural/statistical models. Seven frozen experiments on
+  public Breakthrough Listen data (GBT + Parkes, 45 observations, 63,005 pulse
+  folds) produced a bounded null: zero candidates survive the preregistered
+  detection ladder; all Level-1 anomalies were attributed to instrumental gain
+  wander by the registered control battery.
