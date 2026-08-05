@@ -4,6 +4,7 @@ title: "notalone: a preregistered, control-gated pipeline for protocol-like modu
 authors:
   - family-names: Vladulescu
     given-names: Dragos Catalin
+    orcid: "https://orcid.org/0009-0004-2814-1435"
 version: 1.0.0
 date-released: 2026-08-05
 repository-code: "https://github.com/dragoscv/notalone"
