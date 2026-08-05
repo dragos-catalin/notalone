@@ -22,3 +22,8 @@ artifacts/**/*.png
 bl-b0329.json
 dap.json
 dirlist.html
+
+# Local TeX engine + build
+.tectonic/
+tectonic.zip
+paper/*.pdf
