@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 — 2026-10-05
+
+- CI: pytest + ruff (default rules) through the shared `dragos-catalin/workflows` python-ci, plus a gitleaks + osv-scanner security gate (full history weekly). Renovate via the shared `dragos-catalin/renovate-config` preset.
+
 ## 1.0.0 — 2026-08-05
 
 - Deep Vela batch: all 26 public BL Parkes multibeam epochs downloaded (22 new, ~24 GB, 0 failures); 25 analyzed with one held-out recurrence epoch reserved before scanning (58348_19002_B13, pinned in `held-out-epoch.json`) — the last previously unexercised preregistration requirement.

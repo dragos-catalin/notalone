@@ -8,7 +8,8 @@ from test_observations import synthetic_spectrum
 
 
 def test_manifest_checkpoint_resume(tmp_path) -> None:
-    import json, yaml
+    import json
+    import yaml
     from pulsarnet.experiment import run_manifest
     from pulsarnet.simulator import simulate_natural_pulsar
 

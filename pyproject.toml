@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pulsar-network-experiment"
-version = "1.0.0"
+version = "1.0.1"
 description = "Falsifiable multi-channel experiment for detecting structured modulation in pulsar data"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -26,6 +26,14 @@ pulsarnet = "pulsarnet.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+# Ruff defaults (pyflakes + the safe pycodestyle subset). Line length is not gated:
+# the analysis code carries long numeric literals and registered constants.
+select = ["E4", "E7", "E9", "F"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
